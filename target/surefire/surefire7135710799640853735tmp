@@ -1,0 +1,12 @@
+#surefire
+#Tue Jan 18 22:37:40 PST 2011
+jpda.address=34691
+jpda.listen=true
+forkMode=once
+user.dir=/home/kevin/workspace/java/rotator
+localRepository=/home/kevin/.m2/repository
+test=
+basedir=/home/kevin/workspace/java/rotator
+netbeans.execution=true
+maven.surefire.debug=-Xdebug -Xrunjdwp\:transport\=dt_socket,server\=n,address\=34691
+jpda.stopclass=

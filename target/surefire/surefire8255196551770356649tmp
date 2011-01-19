@@ -1,0 +1,6 @@
+#surefire
+#Tue Jan 18 22:36:19 PST 2011
+user.dir=/home/kevin/workspace/java/rotator
+netbeans.execution=true
+localRepository=/home/kevin/.m2/repository
+basedir=/home/kevin/workspace/java/rotator
