@@ -1,8 +1,7 @@
 package com.cn.rotator.domain;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -11,11 +10,15 @@ import java.util.Date;
  * Time: 10:19 PM
  */
 @Entity
-public class Tester {
-    private static final long serialVersionUID = -8712872385957386182L;
+@Table(name = "Tester")
+public class Tester implements Serializable {
 
     private long id;
     private Date createdAt;
+
+    public Tester() {
+        this.createdAt = new Date();
+    }
 
     public Tester(Date date) {
         this.setCreatedAt(date);
@@ -31,6 +34,7 @@ public class Tester {
     }
 
     @Id
+    //@GeneratedValue(strategy = GenerationType.TABLE)
     public long getId() {
         return id;
     }

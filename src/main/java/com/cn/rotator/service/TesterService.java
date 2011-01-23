@@ -8,19 +8,9 @@ import com.cn.rotator.domain.Tester;
  * Date: 1/16/11
  * Time: 10:28 PM
  */
-public class TesterService {
+public interface TesterService {
 
-    private JpaTesterDao testerDao;
 
-    public void save(Tester tester) {
-        this.testerDao.save(tester);
-    }
-
-    public JpaTesterDao getTesterDao() {
-        return testerDao;
-    }
-
-    public void setTesterDao(JpaTesterDao testerDao) {
-        this.testerDao = testerDao;
-    }
+    public void create(Tester tester);
+    
 }
