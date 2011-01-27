@@ -7,7 +7,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import com.cn.rotator.service.TesterServiceImpl;
 
 import javax.inject.Inject;
 import java.util.Date;
@@ -21,7 +20,7 @@ import java.util.Date;
 @RequestMapping(value = "/tester")
 public class TesterController {
 
-    private TesterService testerService = new JpaTesterService();
+    private TesterService testerService;
 
     @Inject
     public TesterController(TesterService testerService) {
