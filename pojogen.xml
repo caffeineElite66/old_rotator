@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<appconfig>
+	<dbType>MYSQL</dbType>
+	<driver>com.mysql.jdbc.Driver</driver>
+      	<jdbcConnectionString>jdbc:mysql://127.0.0.1/rotator</jdbcConnectionString>
+	<databaseIP>localhost</databaseIP>
+	<databaseCatalog>rotator</databaseCatalog>
+	<databaseUsername>root</databaseUsername>
+	<databasePassword>aj4k2yd</databasePassword>
+	<sourceTarget>/tmp/</sourceTarget>
+	<projectName>rotator</projectName>
+	<topLevel>com.cn.rotator</topLevel>
+	<libPath>libs</libPath>
+	<schemaStrategy>PARTIAL</schemaStrategy>
+</appconfig>
+
