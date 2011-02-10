@@ -1,4 +1,4 @@
-package com.cn.rotator.domain.jap;
+package com.cn.rotator.domain.jpa;
 
 import com.cn.rotator.domain.dao.TesterDao;
 import com.cn.rotator.domain.dom.Tester;

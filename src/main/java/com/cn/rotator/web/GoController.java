@@ -1,11 +1,16 @@
 package com.cn.rotator.web;
 
+import com.cn.rotator.service.RotatorService;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import javax.inject.Inject;
+import java.net.URL;
 
 @Controller
+@RequestMapping("/Go")
 public class GoController {
 	
 	private RotatorService rotatorService;
@@ -15,10 +20,10 @@ public class GoController {
 		this.rotatorService = rotatorService;
 	}
 	
-	@RequestMapping(value="/Go/{rid}" method = RequestMethod.GET)
-	public void go(@PathVariable("rid") long rotatorId, Model model) {
-		String url = rotatorService.getDestinationPath(rotatorId);
-		// redirect
+	@RequestMapping(value="/{rid}", method = RequestMethod.GET)
+	public String go(@PathVariable("rid") long rotatorId, Model model) {
+		URL url = rotatorService.getDestinationPath(rotatorId);
+		return "redirect:" + url.toString();
 	}
 	
 	
