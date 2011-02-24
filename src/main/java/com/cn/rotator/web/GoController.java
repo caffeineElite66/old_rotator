@@ -1,6 +1,7 @@
 package com.cn.rotator.web;
 
 import com.cn.rotator.service.RotatorService;
+import java.net.MalformedURLException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,7 +22,7 @@ public class GoController {
 	}
 	
 	@RequestMapping(value="/{rid}", method = RequestMethod.GET)
-	public String go(@PathVariable("rid") long rotatorId, Model model) {
+	public String go(@PathVariable("rid") long rotatorId, Model model) throws MalformedURLException {
 		URL url = rotatorService.getDestinationPath(rotatorId);
 		return "redirect:" + url.toString();
 	}

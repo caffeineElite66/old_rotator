@@ -8,8 +8,8 @@
 
     <context:component-scan base-package="com.cn.rotator"/>
 
-    <import resource="mvc-config.xml"/>
-    <import resource="persistence-config.xml"/>
+    <import resource="file:/webapp/WEB-INF/spring/mvc-config.xml"/>
+    <import resource="file:/webapp/WEB-INF/spring/persistence-config.xml"/>
 
 
 </beans>
