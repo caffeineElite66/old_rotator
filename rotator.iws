@@ -2,82 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69817608-0125-4f0f-a457-ff5775f62a07" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cn/rotator/domain/JpaTesterDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cn/rotator/domain/Tester.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cn/rotator/domain/TesterDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cn/rotator/service/TesterService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/cn/rotator/web/TesterController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/classes/com/cn/rotator/domain/JpaTesterDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/classes/com/cn/rotator/domain/Tester.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/classes/com/cn/rotator/domain/TesterDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/classes/com/cn/rotator/service/TesterService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/classes/com/cn/rotator/web/TesterController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/classes/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/classes/log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/activation-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/asm-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/cglib-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/hibernate-annotations-3.5.0-Beta-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-3.2.0.Beta1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-3.5.0-Beta-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-3.5.0-Beta-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-4.0.2.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/hsqldb-1.8.0.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.9.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/jaxb-api-2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/jaxb-impl-2.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.5.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/jpa-api-2.0-cr-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/jta-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.16.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.5.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.5.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/spring-asm-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/spring-context-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/spring-core-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/spring-test-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/stax-api-1.0-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/validation-api-1.0.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/spring/mvc-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/spring/persistence-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/spring/rotator-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/views/tester/test.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/views/welcome.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/rotator.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.cn.rotator.domain.TesterService.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.cn.rotator.domain.TesterService.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire146729150058054265tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6233529542217666466tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7135710799640853735tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8255196551770356649tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/cn/rotator/domain/TesterService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/war/work/webapp-cache.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/work/jsp/org/apache/jsp/WEB_002dINF/views/welcome_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Advertiser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\AdvertiserDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Campaignreportingtype.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\CampaignreportingtypeDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Campaigntype.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\CampaigntypeDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Convertedtraffic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\ConvertedtrafficDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Countryurlcampaign.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\CountryurlcampaignDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Foreignset.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\ForeignsetDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\JpaTesterDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Proxyserver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\ProxyserverDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Publisher.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\PublisherDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Publishersetmap.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\PublishersetmapDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Rawtraffic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\RawtrafficDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Requestdata.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\RequestdataDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Rotator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\RotatorDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Rotatorconvertedtraffic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\RotatorconvertedtrafficDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Rotatordestinationpath.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\RotatordestinationpathDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Rotatorrawtraffic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\RotatorrawtrafficDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Setcampaignmap.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\SetcampaignmapDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Trafficoptimizerdefaults.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\TrafficoptimizerdefaultsDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\Unmatchedconversion.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\UnmatchedconversionDao.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\IAdvertiser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\ICampaignreportingtype.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\ICampaigntype.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\IConvertedtraffic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\ICountryurlcampaign.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\IForeignset.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\IProxyserver.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\IPublisher.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\IPublishersetmap.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\IRawtraffic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\IRequestdata.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\IRotator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\IRotatorconvertedtraffic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\IRotatordestinationpath.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\IRotatorrawtraffic.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\ISetcampaignmap.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\ITester.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\ITrafficoptimizerdefaults.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\iface\IUnmatchedconversion.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\AdvertiserDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\CampaignreportingtypeDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\CampaigntypeDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\ConvertedtrafficDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\CountryurlcampaignDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\ForeignsetDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\ProxyserverDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\PublisherDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\PublishersetmapDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\RawtrafficDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\RequestdataDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\RotatorDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\RotatorconvertedtrafficDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\RotatordestinationpathDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\RotatorrawtrafficDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\SetcampaignmapDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\TesterDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\TrafficoptimizerdefaultsDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\workspace\java\rotator\src\main\java\com\cn\rotator\domain\impl\UnmatchedconversionDaoImpl.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rotator.iml" afterPath="$PROJECT_DIR$/rotator.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rotator.ipr" afterPath="$PROJECT_DIR$/rotator.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rotator.iws" afterPath="$PROJECT_DIR$/rotator.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cn/rotator/service/TesterService.java" afterPath="$PROJECT_DIR$/src/main/java/com/cn/rotator/service/TesterService.java" />
     </list>
     <ignored path="rotator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -136,6 +139,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="JpaTesterService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/service/JpaTesterService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="48" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TesterService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/service/TesterService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="32" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JpaTesterDao.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/JpaTesterDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="88" selection-start="387" selection-end="387" vertical-scroll-proportion="-8.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Tester.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/Tester.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -145,82 +177,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TesterService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/rotator/domain/TesterService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Advertiser.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/Advertiser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.18725617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persistence-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/persistence-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdbc.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persistence.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="43" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TesterDao.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/TesterDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JpaTesterDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/JpaTesterDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="56" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TesterService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/service/TesterService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="91" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JpaTesterService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/service/JpaTesterService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
+            <state line="9" column="17" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -240,7 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/rotator-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cn/domain/dom/Session.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/rotator-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cn/rotator/dom/Session.java" />
@@ -250,25 +209,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cn/rotator/service/TesterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cn/rotator/web/TesterController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cn/rotator/service/JpaTesterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/JpaTesterDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/Tester.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/Advertiser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/iface/IAdvertiser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cn/rotator/service/TesterService.java" />
       </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/opt/apache-maven-3.0.2" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ModuleEditorState">
@@ -317,9 +265,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Favorites" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -351,66 +296,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -427,92 +312,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rotator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -608,48 +407,26 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.lastSelected" value="reference.settings.project.maven.repository.indices" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager" selected="Maven.jetty:run">
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="CHOOSE_DEVICE_MANUALLY" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings">
@@ -699,6 +476,28 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="CHOOSE_DEVICE_MANUALLY" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -711,15 +510,17 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="SpecsRunConfiguration" factoryName="Specs">
+    <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="packagepath" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="sysFilter" value=".*" />
-      <setting name="exampleFilter" value=".*" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -752,24 +553,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -841,28 +624,13 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="version" value="false" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="false" name="jetty:run" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings">
           <MavenGeneralSettings>
             <option name="checksumPolicy" value="FAIL" />
             <option name="failureBehavior" value="FAST" />
-            <option name="mavenHome" value="$USER_HOME$/opt/apache-maven-3.0.2" />
+            <option name="mavenHome" value="C:\Users\kevin\opt\apache-maven-3.0.2" />
             <option name="mavenSettingsFile" value="" />
             <option name="nonRecursive" value="false" />
             <option name="overriddenLocalRepository" value="" />
@@ -875,7 +643,7 @@
         </option>
         <option name="myRunnerSettings">
           <MavenRunnerSettings>
-            <option name="jreName" value="1.6" />
+            <option name="jreName" value="#JAVA_HOME" />
             <option name="mavenProperties">
               <map />
             </option>
@@ -930,7 +698,7 @@
     <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
+    <configuration useDefault="true">C:\Users\kevin\AppData\Roaming\Subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="TaskManager">
@@ -942,8 +710,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="184" y="20" width="1577" height="981" extended-state="0" />
-    <editor active="false" />
+    <frame x="159" y="55" width="1152" height="758" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -953,9 +721,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20354563" sideWeight="0.37469587" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3499079" sideWeight="0.015050167" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62530416" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.65815085" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9849498" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1001,98 +769,61 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/rotator/domain/TesterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0" />
+        <state line="7" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/persistence-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/mvc-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="904" selection-end="904" vertical-scroll-proportion="0.4778761" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/rotator-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="59" selection-start="546" selection-end="546" vertical-scroll-proportion="0.18204804" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/web/TesterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="87" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="39" selection-start="6544" selection-end="6544" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/service/JpaTesterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/TesterDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/JpaTesterDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="56" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/service/TesterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="91" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+        <state line="37" column="0" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.73653394">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="43" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/persistence-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.0">
+        <state line="6" column="43" selection-start="370" selection-end="370" vertical-scroll-proportion="0.11764706">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+        <state line="15" column="36" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/TesterDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cn/rotator/domain/TesterService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/service/JpaTesterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+        <state line="22" column="48" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/Advertiser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/service/TesterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.18725617">
+        <state line="11" column="32" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cn/rotator/domain/JpaTesterDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="88" selection-start="387" selection-end="387" vertical-scroll-proportion="-8.5">
           <folding />
         </state>
       </provider>
@@ -1100,81 +831,9 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="Copyright.UI">
         <settings>
           <splitter-proportions />
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Android</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>rotator</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: antlr:antlr:2.7.6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
         </settings>
       </state>
       <state key="ScopeChooserConfigurable.UI">
