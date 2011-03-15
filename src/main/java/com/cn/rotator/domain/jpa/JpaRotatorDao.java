@@ -1,5 +1,7 @@
-package com.cn.rotator.domain;
+package com.cn.rotator.domain.jpa;
 
+import com.cn.rotator.domain.dom.Rotator;
+import com.cn.rotator.domain.dao.RotatorDao;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -8,11 +10,11 @@ import javax.persistence.PersistenceContext;
 
 /**
  * User: kevin
- * Date: 1/16/11
- * Time: 10:20 PM
+ * Date: 1/30/11
+ * Time: 5:57 PM
  */
 @Repository
-public class JpaTesterDao implements TesterDao {
+public class JpaRotatorDao implements RotatorDao {
 
     EntityManager entityManager;
 
@@ -26,14 +28,10 @@ public class JpaTesterDao implements TesterDao {
     }
 
     @Override
-    @Transactional(readOnly = true)
-    public Tester findTesterById(long id) {
-        return (Tester) this.entityManager.createQuery("select t from Tester t where t.id = :id").setParameter("id", id).getSingleResult();
-    }
-
-    @Override
     @Transactional
-    public void save(Tester tester) {
-        this.entityManager.merge(tester);
+    public Rotator findRotatorById(long id) {
+        return (Rotator) this.entityManager
+                .createQuery("select r from Rotator r where r.id = :id")
+                .setParameter("id", id).getSingleResult();
     }
 }

@@ -7,9 +7,15 @@
 	<databaseCatalog>rotator</databaseCatalog>
 	<databaseUsername>root</databaseUsername>
 	<databasePassword>aj4k2yd</databasePassword>
+<<<<<<< HEAD
 	<sourceTarget>/tmp</sourceTarget>
 	<projectName>rotator</projectName>
 	<topLevel>com.cm.rotator.domain</topLevel>
+=======
+	<sourceTarget>/tmp/</sourceTarget>
+	<projectName>rotator</projectName>
+	<topLevel>com.cn.rotator</topLevel>
+>>>>>>> 14f6ce8f1c8b39a751c01f6023c10d0e2336467f
 	<libPath>libs</libPath>
 	<schemaStrategy>PARTIAL</schemaStrategy>
 </appconfig>
