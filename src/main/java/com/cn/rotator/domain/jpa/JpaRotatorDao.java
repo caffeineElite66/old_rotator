@@ -2,6 +2,7 @@ package com.cn.rotator.domain.jpa;
 
 import com.cn.rotator.domain.dom.Rotator;
 import com.cn.rotator.domain.dao.RotatorDao;
+import java.util.List;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -25,6 +26,16 @@ public class JpaRotatorDao implements RotatorDao {
 
     public EntityManager getEntityManager() {
         return this.entityManager;
+    }
+
+    @Override
+    public List<Rotator> getRotators() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public void save(Rotator rotator) {
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 
     @Override
