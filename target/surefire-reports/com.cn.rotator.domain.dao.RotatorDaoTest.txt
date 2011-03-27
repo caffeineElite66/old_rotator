@@ -1,13 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: com.cn.rotator.domain.dao.RotatorDaoTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.609 sec <<< FAILURE!
-testRotator(com.cn.rotator.domain.dao.RotatorDaoTest)  Time elapsed: 0.281 sec  <<< ERROR!
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.cn.rotator.domain.dao.RotatorDaoTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.cn.rotator.domain.dao.jpa.JpaRotatorDao com.cn.rotator.domain.dao.RotatorDaoTest.rotatorDao; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [com.cn.rotator.domain.dao.jpa.JpaRotatorDao] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1074)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:374)
-	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.431 sec <<< FAILURE!
+testRotator(com.cn.rotator.domain.dao.RotatorDaoTest)  Time elapsed: 0.12 sec  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:308)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
 	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
 	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:220)
@@ -37,15 +35,25 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
-Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.cn.rotator.domain.dao.jpa.JpaRotatorDao com.cn.rotator.domain.dao.RotatorDaoTest.rotatorDao; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [com.cn.rotator.domain.dao.jpa.JpaRotatorDao] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:502)
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:282)
-	... 32 more
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [com.cn.rotator.domain.dao.jpa.JpaRotatorDao] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@javax.inject.Inject()}
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:920)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:789)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:703)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:474)
-	... 34 more
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from URL [file:webapp/WEB-INF/spring/rotator-config.xml]; nested exception is java.io.FileNotFoundException: webapp\WEB-INF\spring\rotator-config.xml (The system cannot find the path specified)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:212)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:81)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
+	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:280)
+	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:304)
+	... 30 more
+Caused by: java.io.FileNotFoundException: webapp\WEB-INF\spring\rotator-config.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:70)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:161)
+	at org.springframework.core.io.UrlResource.getInputStream(UrlResource.java:124)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 39 more
 

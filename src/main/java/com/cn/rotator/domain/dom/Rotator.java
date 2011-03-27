@@ -3,6 +3,7 @@ package com.cn.rotator.domain.dom;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
@@ -35,7 +36,7 @@ public class Rotator implements Serializable {
     private boolean active;
 
     @OneToMany
-    private ArrayList<RotatorDestinationPath> rotatorDestinationPaths;
+    private List<RotatorDestinationPath> rotatorDestinationPaths;
 
     public Rotator() {}
 
@@ -63,7 +64,7 @@ public class Rotator implements Serializable {
         this.id = id;
     }
 
-    public ArrayList<RotatorDestinationPath> getRotatorDestinationPaths() {
+    public List<RotatorDestinationPath> getRotatorDestinationPaths() {
         return rotatorDestinationPaths;
     }
 

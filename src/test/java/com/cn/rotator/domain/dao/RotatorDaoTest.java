@@ -23,7 +23,7 @@ import static junit.framework.Assert.assertEquals;
  */
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations={"file:/webapp/WEB-INF/spring/*.xml"})
+//@ContextConfiguration(locations={"file:webapp/WEB-INF/spring/rotator-config.xml"})
 public class RotatorDaoTest {
 
     @Inject
