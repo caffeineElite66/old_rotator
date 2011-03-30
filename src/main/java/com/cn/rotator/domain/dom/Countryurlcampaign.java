@@ -20,7 +20,7 @@ import org.hibernate.proxy.HibernateProxy;
  */
 
 @Entity
-@Table(name = "CountryUrlCampaign", catalog = "rotator")
+@Table(name = "CountryUrlCampaign")
 public class Countryurlcampaign implements Cloneable, Serializable {
 
 	/** Serial Version UID. */

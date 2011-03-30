@@ -12,7 +12,7 @@ import javax.persistence.*;
  */
 
 @Entity
-@Table(name = "RotatorDestinationPath", catalog = "rotator")
+@Table(name = "RotatorDestinationPath")
 public class RotatorDestinationPath implements Cloneable, Serializable {
 
     private static final long serialVersionUID = -559008637L;

@@ -23,11 +23,11 @@ import static junit.framework.Assert.assertEquals;
  */
 
 @RunWith(SpringJUnit4ClassRunner.class)
-//@ContextConfiguration(locations={"file:webapp/WEB-INF/spring/rotator-config.xml"})
+@ContextConfiguration(locations={"file:src/test/resources/spring/rotator-config.xml"})
 public class RotatorDaoTest {
 
     @Inject
-    private JpaRotatorDao rotatorDao;
+    private RotatorDao rotatorDao;
     
     private Logger log = LoggerFactory.getLogger(RotatorDaoTest.class);
 

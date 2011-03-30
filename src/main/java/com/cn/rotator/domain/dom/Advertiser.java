@@ -20,7 +20,7 @@ import org.hibernate.proxy.HibernateProxy;
  */
 
 @Entity
-@Table(name = "Advertiser", catalog = "rotator")
+@Table(name = "Advertiser")
 public class Advertiser implements Cloneable, Serializable {
 
 	/** Serial Version UID. */
