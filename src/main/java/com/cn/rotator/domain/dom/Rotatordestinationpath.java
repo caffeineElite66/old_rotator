@@ -41,7 +41,7 @@ public class RotatorDestinationPath implements Cloneable, Serializable {
     @Column(name="active")
     private boolean active;
 
-    @ManyToOne(fetch=FetchType.LAZY)
+    @ManyToOne(fetch=FetchType.EAGER)
     @JoinColumn(name="rotator_id")
     private Rotator rotator;
 

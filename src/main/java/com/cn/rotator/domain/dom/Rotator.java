@@ -46,7 +46,7 @@ public class Rotator implements Serializable {
     private boolean active;
 
     //@OneToMany(fetch=FetchType.EAGER, mappedBy="rotator", targetEntity=RotatorDestinationPath.class)
-    @OneToMany
+    @OneToMany(cascade=CascadeType.ALL, fetch=FetchType.EAGER)
     @JoinColumn(name="rotator_id", referencedColumnName="id")
     private List<RotatorDestinationPath> rotatorDestinationPaths;
 
