@@ -18,26 +18,36 @@ public class RotatorDestinationPath implements Cloneable, Serializable {
     private static final long serialVersionUID = -559008637L;
 
     @Id
+    @GeneratedValue
     private long id;
 
+    @Column(name="path_name")
     private String pathName;
 
+    @Column(name="created_at")
     @Temporal(TemporalType.DATE)
     private Date createdAt;
 
+    @Column(name="updated_at")
     @Temporal(TemporalType.DATE)
-    private Date updateAt;
+    private Date updatedAt;
 
+    @Column(name="url")
     private String url;
 
-    private float pathPercent;
-
-    @ManyToOne
-    private Rotator rotator;
-
+    @Column(name="path_percent")
+    private float pathPercent; 
+    
+    @Column(name="active")
     private boolean active;
 
+    @ManyToOne(fetch=FetchType.LAZY)
+    @JoinColumn(name="rotator_id")
+    private Rotator rotator;
+
     public RotatorDestinationPath() {
+        this.createdAt = new java.util.Date();
+        this.updatedAt = new java.util.Date();
     }
 
     public boolean isActive() {
@@ -79,21 +89,13 @@ public class RotatorDestinationPath implements Cloneable, Serializable {
     public void setPathPercent(float pathPercent) {
         this.pathPercent = pathPercent;
     }
-
-    public Rotator getRotator() {
-        return rotator;
+    
+    public Date getUpdatedAt() {
+        return updatedAt;
     }
 
-    public void setRotator(Rotator rotator) {
-        this.rotator = rotator;
-    }
-
-    public Date getUpdateAt() {
-        return updateAt;
-    }
-
-    public void setUpdateAt(Date updateAt) {
-        this.updateAt = updateAt;
+    public void setUpdatedAt(Date updatedAt) {
+        this.updatedAt = updatedAt;
     }
 
     public String getUrl() {
@@ -104,6 +106,13 @@ public class RotatorDestinationPath implements Cloneable, Serializable {
         this.url = url;
     }
 
+    public Rotator getRotator() {
+        return rotator;
+    }
 
+    public void setRotator(Rotator rotator) {
+        this.rotator = rotator;
+    }
 
+   
 }

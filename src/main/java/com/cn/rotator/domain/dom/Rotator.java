@@ -4,8 +4,14 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
@@ -21,24 +27,40 @@ import javax.persistence.TemporalType;
 public class Rotator implements Serializable {
 
     private static final long serialVersionUID = -559008639L;
-
     @Id
+    @GeneratedValue
     private long id;
 
+    @Column(name = "rotator_name")
     private String rotatorName;
 
+    @Column(name = "created_at")
     @Temporal(TemporalType.DATE)
     private Date createdAt;
 
+    @Column(name = "updated_at")
     @Temporal(TemporalType.DATE)
     private Date updatedAt;
 
+    @Column(name = "active")
     private boolean active;
 
+    //@OneToMany(fetch=FetchType.EAGER, mappedBy="rotator", targetEntity=RotatorDestinationPath.class)
     @OneToMany
+    @JoinColumn(name="rotator_id", referencedColumnName="id")
     private List<RotatorDestinationPath> rotatorDestinationPaths;
 
-    public Rotator() {}
+    public Rotator() {
+        this.createdAt = new java.util.Date();
+        this.updatedAt = new java.util.Date();
+    }
+
+    public void addRotatorDestinationPath(RotatorDestinationPath path) {
+        this.rotatorDestinationPaths.add(path);
+        if (path.getRotator() != this) {
+            path.setRotator(this);
+        }
+    }
 
     public boolean isActive() {
         return active;
@@ -71,7 +93,7 @@ public class Rotator implements Serializable {
     public void setRotatorDestinationPaths(ArrayList<RotatorDestinationPath> rotatorDestinationPaths) {
         this.rotatorDestinationPaths = rotatorDestinationPaths;
     }
-
+    
     public String getRotatorName() {
         return rotatorName;
     }
@@ -87,6 +109,4 @@ public class Rotator implements Serializable {
     public void setUpdatedAt(Date updatedAt) {
         this.updatedAt = updatedAt;
     }
-
-
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.434" errors="1" skipped="0" tests="1" name="com.cn.rotator.domain.dao.RotatorDaoTest">
+<testsuite failures="0" time="2.272" errors="1" skipped="0" tests="1" name="com.cn.rotator.domain.dao.RotatorDaoTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_24\jre\bin"/>
@@ -11,7 +11,7 @@
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\kevin\workspace\java\rotator"/>
     <property name="java.runtime.version" value="1.6.0_24-b07"/>
@@ -19,30 +19,31 @@
     <property name="basedir" value="C:\Users\kevin\workspace\java\rotator"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_24\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\kevin\workspace\java\rotator\target\surefire\surefirebooter2226999273170202492.jar"/>
-    <property name="java.io.tmpdir" value="E:\Users\kevin\workspace\opt\cygwin\tmp\"/>
+    <property name="surefire.real.class.path" value="C:\Users\kevin\workspace\java\rotator\target\surefire\surefirebooter48758101889101508.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\kevin\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_24\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Users\kevin\workspace\opt\cygwin\usr\local\bin;E:\Users\kevin\workspace\opt\cygwin\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;E:\Users\kevin\workspace\bin;E:\Users\kevin\workspace\opt\cygwin\lib\lapack"/>
-    <property name="surefire.test.class.path" value="C:\Users\kevin\workspace\java\rotator\target\test-classes;C:\Users\kevin\workspace\java\rotator\target\classes;E:\Users\kevin\.m2\repository\org\springframework\spring-context\3.0.5.RELEASE\spring-context-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-expression\3.0.5.RELEASE\spring-expression-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-asm\3.0.5.RELEASE\spring-asm-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-webmvc\3.0.5.RELEASE\spring-webmvc-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-core\3.0.5.RELEASE\spring-core-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-web\3.0.5.RELEASE\spring-web-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-beans\3.0.5.RELEASE\spring-beans-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-aop\3.0.5.RELEASE\spring-aop-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-context-support\3.0.5.RELEASE\spring-context-support-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-tx\3.0.5.RELEASE\spring-tx-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-jdbc\3.0.5.RELEASE\spring-jdbc-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-test\3.0.5.RELEASE\spring-test-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\hibernate\java-persistence\jpa-api\2.0-cr-1\jpa-api-2.0-cr-1.jar;E:\Users\kevin\.m2\repository\org\hibernate\hibernate-entitymanager\3.5.0-Beta-2\hibernate-entitymanager-3.5.0-Beta-2.jar;E:\Users\kevin\.m2\repository\org\hibernate\hibernate-core\3.5.0-Beta-2\hibernate-core-3.5.0-Beta-2.jar;E:\Users\kevin\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;E:\Users\kevin\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;E:\Users\kevin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;E:\Users\kevin\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;E:\Users\kevin\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;E:\Users\kevin\.m2\repository\org\hibernate\hibernate-annotations\3.5.0-Beta-2\hibernate-annotations-3.5.0-Beta-2.jar;E:\Users\kevin\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Beta1\hibernate-commons-annotations-3.2.0.Beta1.jar;E:\Users\kevin\.m2\repository\cglib\cglib\2.2\cglib-2.2.jar;E:\Users\kevin\.m2\repository\asm\asm\3.1\asm-3.1.jar;E:\Users\kevin\.m2\repository\javassist\javassist\3.9.0.GA\javassist-3.9.0.GA.jar;E:\Users\kevin\.m2\repository\hsqldb\hsqldb\1.8.0.10\hsqldb-1.8.0.10.jar;E:\Users\kevin\.m2\repository\mysql\mysql-connector-java\5.1.12\mysql-connector-java-5.1.12.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-orm\3.0.5.RELEASE\spring-orm-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\slf4j\slf4j-api\1.5.10\slf4j-api-1.5.10.jar;E:\Users\kevin\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.10\jcl-over-slf4j-1.5.10.jar;E:\Users\kevin\.m2\repository\org\slf4j\slf4j-log4j12\1.5.10\slf4j-log4j12-1.5.10.jar;E:\Users\kevin\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;E:\Users\kevin\.m2\repository\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar;E:\Users\kevin\.m2\repository\org\hibernate\hibernate-validator\4.0.2.GA\hibernate-validator-4.0.2.GA.jar;E:\Users\kevin\.m2\repository\javax\xml\bind\jaxb-api\2.1\jaxb-api-2.1.jar;E:\Users\kevin\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;E:\Users\kevin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;E:\Users\kevin\.m2\repository\com\sun\xml\bind\jaxb-impl\2.1.3\jaxb-impl-2.1.3.jar;E:\Users\kevin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;E:\Users\kevin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;E:\Users\kevin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;E:\Users\kevin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;E:\Users\kevin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.6.0_24\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Users\kevin\workspace\bin;C:\Program Files (x86)\Git\cmd;C:\Users\kevin\workspace\lib\scala-2.8.1.final\bin;C:\Program Files\Java\jdk1.6.0_24\bin"/>
+    <property name="surefire.test.class.path" value="C:\Users\kevin\workspace\java\rotator\target\test-classes;C:\Users\kevin\workspace\java\rotator\target\classes;C:\Users\kevin\.m2\repository\org\springframework\spring-context\3.0.5.RELEASE\spring-context-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-expression\3.0.5.RELEASE\spring-expression-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-asm\3.0.5.RELEASE\spring-asm-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-webmvc\3.0.5.RELEASE\spring-webmvc-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-core\3.0.5.RELEASE\spring-core-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-web\3.0.5.RELEASE\spring-web-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-beans\3.0.5.RELEASE\spring-beans-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-aop\3.0.5.RELEASE\spring-aop-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-context-support\3.0.5.RELEASE\spring-context-support-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-tx\3.0.5.RELEASE\spring-tx-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-jdbc\3.0.5.RELEASE\spring-jdbc-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-test\3.0.5.RELEASE\spring-test-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\hibernate\java-persistence\jpa-api\2.0-cr-1\jpa-api-2.0-cr-1.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-entitymanager\3.5.0-Beta-2\hibernate-entitymanager-3.5.0-Beta-2.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-core\3.5.0-Beta-2\hibernate-core-3.5.0-Beta-2.jar;C:\Users\kevin\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\kevin\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\kevin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\kevin\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\kevin\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-annotations\3.5.0-Beta-2\hibernate-annotations-3.5.0-Beta-2.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Beta1\hibernate-commons-annotations-3.2.0.Beta1.jar;C:\Users\kevin\.m2\repository\cglib\cglib\2.2\cglib-2.2.jar;C:\Users\kevin\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\kevin\.m2\repository\javassist\javassist\3.9.0.GA\javassist-3.9.0.GA.jar;C:\Users\kevin\.m2\repository\hsqldb\hsqldb\1.8.0.7\hsqldb-1.8.0.7.jar;C:\Users\kevin\.m2\repository\mysql\mysql-connector-java\5.1.12\mysql-connector-java-5.1.12.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-orm\3.0.5.RELEASE\spring-orm-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\slf4j\slf4j-api\1.5.10\slf4j-api-1.5.10.jar;C:\Users\kevin\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.10\jcl-over-slf4j-1.5.10.jar;C:\Users\kevin\.m2\repository\org\slf4j\slf4j-log4j12\1.5.10\slf4j-log4j12-1.5.10.jar;C:\Users\kevin\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\kevin\.m2\repository\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-validator\4.0.2.GA\hibernate-validator-4.0.2.GA.jar;C:\Users\kevin\.m2\repository\javax\xml\bind\jaxb-api\2.1\jaxb-api-2.1.jar;C:\Users\kevin\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\kevin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\kevin\.m2\repository\com\sun\xml\bind\jaxb-impl\2.1.3\jaxb-impl-2.1.3.jar;C:\Users\kevin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\kevin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\kevin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\kevin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\kevin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="50.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler"/>
     <property name="os.version" value="6.1"/>
-    <property name="user.home" value="E:\Users\kevin"/>
-    <property name="user.timezone" value=""/>
+    <property name="user.home" value="C:\Users\kevin"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.6"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="kevin"/>
-    <property name="java.class.path" value="C:\Users\kevin\workspace\java\rotator\target\test-classes;C:\Users\kevin\workspace\java\rotator\target\classes;E:\Users\kevin\.m2\repository\org\springframework\spring-context\3.0.5.RELEASE\spring-context-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-expression\3.0.5.RELEASE\spring-expression-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-asm\3.0.5.RELEASE\spring-asm-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-webmvc\3.0.5.RELEASE\spring-webmvc-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-core\3.0.5.RELEASE\spring-core-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-web\3.0.5.RELEASE\spring-web-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-beans\3.0.5.RELEASE\spring-beans-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-aop\3.0.5.RELEASE\spring-aop-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-context-support\3.0.5.RELEASE\spring-context-support-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-tx\3.0.5.RELEASE\spring-tx-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-jdbc\3.0.5.RELEASE\spring-jdbc-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-test\3.0.5.RELEASE\spring-test-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\hibernate\java-persistence\jpa-api\2.0-cr-1\jpa-api-2.0-cr-1.jar;E:\Users\kevin\.m2\repository\org\hibernate\hibernate-entitymanager\3.5.0-Beta-2\hibernate-entitymanager-3.5.0-Beta-2.jar;E:\Users\kevin\.m2\repository\org\hibernate\hibernate-core\3.5.0-Beta-2\hibernate-core-3.5.0-Beta-2.jar;E:\Users\kevin\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;E:\Users\kevin\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;E:\Users\kevin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;E:\Users\kevin\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;E:\Users\kevin\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;E:\Users\kevin\.m2\repository\org\hibernate\hibernate-annotations\3.5.0-Beta-2\hibernate-annotations-3.5.0-Beta-2.jar;E:\Users\kevin\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Beta1\hibernate-commons-annotations-3.2.0.Beta1.jar;E:\Users\kevin\.m2\repository\cglib\cglib\2.2\cglib-2.2.jar;E:\Users\kevin\.m2\repository\asm\asm\3.1\asm-3.1.jar;E:\Users\kevin\.m2\repository\javassist\javassist\3.9.0.GA\javassist-3.9.0.GA.jar;E:\Users\kevin\.m2\repository\hsqldb\hsqldb\1.8.0.10\hsqldb-1.8.0.10.jar;E:\Users\kevin\.m2\repository\mysql\mysql-connector-java\5.1.12\mysql-connector-java-5.1.12.jar;E:\Users\kevin\.m2\repository\org\springframework\spring-orm\3.0.5.RELEASE\spring-orm-3.0.5.RELEASE.jar;E:\Users\kevin\.m2\repository\org\slf4j\slf4j-api\1.5.10\slf4j-api-1.5.10.jar;E:\Users\kevin\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.10\jcl-over-slf4j-1.5.10.jar;E:\Users\kevin\.m2\repository\org\slf4j\slf4j-log4j12\1.5.10\slf4j-log4j12-1.5.10.jar;E:\Users\kevin\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;E:\Users\kevin\.m2\repository\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar;E:\Users\kevin\.m2\repository\org\hibernate\hibernate-validator\4.0.2.GA\hibernate-validator-4.0.2.GA.jar;E:\Users\kevin\.m2\repository\javax\xml\bind\jaxb-api\2.1\jaxb-api-2.1.jar;E:\Users\kevin\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;E:\Users\kevin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;E:\Users\kevin\.m2\repository\com\sun\xml\bind\jaxb-impl\2.1.3\jaxb-impl-2.1.3.jar;E:\Users\kevin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;E:\Users\kevin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;E:\Users\kevin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;E:\Users\kevin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;E:\Users\kevin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;"/>
+    <property name="java.class.path" value="C:\Users\kevin\workspace\java\rotator\target\test-classes;C:\Users\kevin\workspace\java\rotator\target\classes;C:\Users\kevin\.m2\repository\org\springframework\spring-context\3.0.5.RELEASE\spring-context-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-expression\3.0.5.RELEASE\spring-expression-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-asm\3.0.5.RELEASE\spring-asm-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-webmvc\3.0.5.RELEASE\spring-webmvc-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-core\3.0.5.RELEASE\spring-core-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-web\3.0.5.RELEASE\spring-web-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-beans\3.0.5.RELEASE\spring-beans-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-aop\3.0.5.RELEASE\spring-aop-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-context-support\3.0.5.RELEASE\spring-context-support-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-tx\3.0.5.RELEASE\spring-tx-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-jdbc\3.0.5.RELEASE\spring-jdbc-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-test\3.0.5.RELEASE\spring-test-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\hibernate\java-persistence\jpa-api\2.0-cr-1\jpa-api-2.0-cr-1.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-entitymanager\3.5.0-Beta-2\hibernate-entitymanager-3.5.0-Beta-2.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-core\3.5.0-Beta-2\hibernate-core-3.5.0-Beta-2.jar;C:\Users\kevin\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\kevin\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\kevin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\kevin\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\kevin\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-annotations\3.5.0-Beta-2\hibernate-annotations-3.5.0-Beta-2.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Beta1\hibernate-commons-annotations-3.2.0.Beta1.jar;C:\Users\kevin\.m2\repository\cglib\cglib\2.2\cglib-2.2.jar;C:\Users\kevin\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\kevin\.m2\repository\javassist\javassist\3.9.0.GA\javassist-3.9.0.GA.jar;C:\Users\kevin\.m2\repository\hsqldb\hsqldb\1.8.0.7\hsqldb-1.8.0.7.jar;C:\Users\kevin\.m2\repository\mysql\mysql-connector-java\5.1.12\mysql-connector-java-5.1.12.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-orm\3.0.5.RELEASE\spring-orm-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\slf4j\slf4j-api\1.5.10\slf4j-api-1.5.10.jar;C:\Users\kevin\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.10\jcl-over-slf4j-1.5.10.jar;C:\Users\kevin\.m2\repository\org\slf4j\slf4j-log4j12\1.5.10\slf4j-log4j12-1.5.10.jar;C:\Users\kevin\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\kevin\.m2\repository\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-validator\4.0.2.GA\hibernate-validator-4.0.2.GA.jar;C:\Users\kevin\.m2\repository\javax\xml\bind\jaxb-api\2.1\jaxb-api-2.1.jar;C:\Users\kevin\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\kevin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\kevin\.m2\repository\com\sun\xml\bind\jaxb-impl\2.1.3\jaxb-impl-2.1.3.jar;C:\Users\kevin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\kevin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\kevin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\kevin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\kevin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;"/>
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.6.0_24\jre"/>
+    <property name="netbeans.execution" value="true"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -51,7 +52,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.6.0_24\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.6.0_24\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_24\jre\classes"/>
     <property name="java.vendor" value="Sun Microsystems Inc."/>
-    <property name="localRepository" value="E:\Users\kevin\.m2\repository"/>
+    <property name="localRepository" value="C:\Users\kevin\.m2\repository"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -59,16 +60,40 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.121" classname="com.cn.rotator.domain.dao.RotatorDaoTest" name="testRotator">
-    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
-	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:308)
-	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
-	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
-	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:220)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:301)
+  <testcase time="2.052" classname="com.cn.rotator.domain.dao.RotatorDaoTest" name="testRotator">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not insert: [com.cn.rotator.domain.dom.RotatorDestinationPath]" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not insert: [com.cn.rotator.domain.dom.RotatorDestinationPath]
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:804)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.merge(AbstractEntityManagerImpl.java:331)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:240)
+	at $Proxy27.merge(Unknown Source)
+	at com.cn.rotator.domain.dao.jpa.JpaRotatorDestinationPathDao.save(JpaRotatorDestinationPathDao.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:309)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:183)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202)
+	at $Proxy29.save(Unknown Source)
+	at com.cn.rotator.domain.dao.RotatorDaoTest.testRotator(RotatorDaoTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:303)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
 	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
@@ -92,27 +117,47 @@
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
-Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from URL [file:webapp/WEB-INF/spring/rotator-config.xml]; nested exception is java.io.FileNotFoundException: webapp\WEB-INF\spring\rotator-config.xml (The system cannot find the path specified)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:212)
-	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:81)
-	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
-	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:280)
-	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:304)
-	... 30 more
-Caused by: java.io.FileNotFoundException: webapp\WEB-INF\spring\rotator-config.xml (The system cannot find the path specified)
-	at java.io.FileInputStream.open(Native Method)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:66)
-	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:70)
-	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:161)
-	at org.springframework.core.io.UrlResource.getInputStream(UrlResource.java:124)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
-	... 39 more
+Caused by: org.hibernate.exception.ConstraintViolationException: could not insert: [com.cn.rotator.domain.dom.RotatorDestinationPath]
+	at org.hibernate.exception.SQLStateConverter.convert(SQLStateConverter.java:94)
+	at org.hibernate.exception.JDBCExceptionHelper.convert(JDBCExceptionHelper.java:66)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:64)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2278)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2758)
+	at org.hibernate.action.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:71)
+	at org.hibernate.engine.ActionQueue.execute(ActionQueue.java:279)
+	at org.hibernate.event.def.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:321)
+	at org.hibernate.event.def.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:204)
+	at org.hibernate.event.def.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:130)
+	at org.hibernate.ejb.event.EJB3MergeEventListener.saveWithGeneratedId(EJB3MergeEventListener.java:62)
+	at org.hibernate.event.def.DefaultMergeEventListener.mergeTransientEntity(DefaultMergeEventListener.java:314)
+	at org.hibernate.event.def.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:282)
+	at org.hibernate.event.def.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:237)
+	at org.hibernate.event.def.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:84)
+	at org.hibernate.impl.SessionImpl.fireMerge(SessionImpl.java:709)
+	at org.hibernate.impl.SessionImpl.merge(SessionImpl.java:693)
+	at org.hibernate.impl.SessionImpl.merge(SessionImpl.java:697)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.merge(AbstractEntityManagerImpl.java:322)
+	... 53 more
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column &apos;rotator_id&apos; cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.Util.getInstance(Util.java:384)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1041)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3494)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1960)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2114)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2696)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2105)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2398)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2316)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2301)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:94)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:57)
+	... 69 more
 </error>
     <system-out>@HL
 @HL-------------------------------------------------------
@@ -127,19 +172,832 @@ DEBUG: org.springframework.test.annotation.ProfileValueUtils - Retrieved @Profil
 DEBUG: org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cn.rotator.domain.dao.RotatorDaoTest]
 DEBUG: org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.cn.rotator.domain.dao.RotatorDaoTest]
 DEBUG: org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.cn.rotator.domain.dao.RotatorDaoTest]
-DEBUG: org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[TestContext@5ff06dc3 testClass = RotatorDaoTest, locations = array&lt;String&gt;[&apos;file:webapp/WEB-INF/spring/rotator-config.xml&apos;], testInstance = com.cn.rotator.domain.dao.RotatorDaoTest@21b64e6a, testMethod = [null], testException = [null]]].
-DEBUG: org.springframework.test.context.support.AbstractGenericContextLoader - Loading ApplicationContext for locations [file:webapp/WEB-INF/spring/rotator-config.xml].
-INFO : org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:webapp/WEB-INF/spring/rotator-config.xml]
-ERROR: org.springframework.test.context.TestContextManager - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@403ef810] to prepare test instance [com.cn.rotator.domain.dao.RotatorDaoTest@21b64e6a]
-java.lang.IllegalStateException: Failed to load ApplicationContext
-	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:308)
-	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:109)
-	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
-	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:220)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:301)
+DEBUG: org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[TestContext@f581593 testClass = RotatorDaoTest, locations = array&lt;String&gt;[&apos;file:src/test/resources/spring/rotator-config.xml&apos;], testInstance = com.cn.rotator.domain.dao.RotatorDaoTest@5ff06dc3, testMethod = [null], testException = [null]]].
+DEBUG: org.springframework.test.context.support.AbstractGenericContextLoader - Loading ApplicationContext for locations [file:src/test/resources/spring/rotator-config.xml].
+INFO : org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:src/test/resources/spring/rotator-config.xml]
+DEBUG: org.springframework.beans.factory.xml.DefaultDocumentLoader - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+DEBUG: org.springframework.beans.factory.xml.PluggableSchemaResolver - Loading schema mappings from [META-INF/spring.schemas]
+DEBUG: org.springframework.beans.factory.xml.PluggableSchemaResolver - Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+DEBUG: org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+DEBUG: org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/context/spring-context-3.0.xsd] in classpath: org/springframework/context/config/spring-context-3.0.xsd
+DEBUG: org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.0.xsd
+DEBUG: org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/tx/spring-tx-2.5.xsd] in classpath: org/springframework/transaction/config/spring-tx-2.5.xsd
+DEBUG: org.springframework.beans.factory.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd] in classpath: org/springframework/web/servlet/config/spring-mvc-3.0.xsd
+DEBUG: org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader - Loading bean definitions
+DEBUG: org.springframework.beans.factory.xml.DefaultNamespaceHandlerResolver - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+INFO : org.springframework.context.annotation.ClassPathBeanDefinitionScanner - JSR-330 &apos;javax.inject.Named&apos; annotation found and supported for component scanning
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\kevin\workspace\java\rotator\target\test-classes\com\cn\rotator]
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\kevin\workspace\java\rotator\target\test-classes\com\cn\rotator] for files matching pattern [C:/Users/kevin/workspace/java/rotator/target/test-classes/com/cn/rotator/**/*.class]
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\kevin\workspace\java\rotator\target\test-classes\com\cn\rotator\domain] for files matching pattern [C:/Users/kevin/workspace/java/rotator/target/test-classes/com/cn/rotator/**/*.class]
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\kevin\workspace\java\rotator\target\test-classes\com\cn\rotator\domain\dao] for files matching pattern [C:/Users/kevin/workspace/java/rotator/target/test-classes/com/cn/rotator/**/*.class]
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator]
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator] for files matching pattern [C:/Users/kevin/workspace/java/rotator/target/classes/com/cn/rotator/**/*.class]
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain] for files matching pattern [C:/Users/kevin/workspace/java/rotator/target/classes/com/cn/rotator/**/*.class]
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dao] for files matching pattern [C:/Users/kevin/workspace/java/rotator/target/classes/com/cn/rotator/**/*.class]
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dao\jpa] for files matching pattern [C:/Users/kevin/workspace/java/rotator/target/classes/com/cn/rotator/**/*.class]
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dom] for files matching pattern [C:/Users/kevin/workspace/java/rotator/target/classes/com/cn/rotator/**/*.class]
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\service] for files matching pattern [C:/Users/kevin/workspace/java/rotator/target/classes/com/cn/rotator/**/*.class]
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\service\jpa] for files matching pattern [C:/Users/kevin/workspace/java/rotator/target/classes/com/cn/rotator/**/*.class]
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\web] for files matching pattern [C:/Users/kevin/workspace/java/rotator/target/classes/com/cn/rotator/**/*.class]
+DEBUG: org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/cn/rotator/**/*.class] to resources [file [C:\Users\kevin\workspace\java\rotator\target\test-classes\com\cn\rotator\domain\dao\RotatorDaoTest.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dao\jpa\JpaRotatorDao.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dao\jpa\JpaRotatorDestinationPathDao.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dao\RotatorDao.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dao\RotatorDestinationPathDao.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dom\Advertiser.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dom\CampaignReportingType.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dom\CampaignType.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dom\ConvertedTraffic.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dom\Countryurlcampaign.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dom\Rotator.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dom\RotatorDestinationPath.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\service\jpa\JpaRotatorService.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\service\RotatorService.class], file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\web\GoController.class]]
+DEBUG: org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dao\jpa\JpaRotatorDao.class]
+DEBUG: org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\domain\dao\jpa\JpaRotatorDestinationPathDao.class]
+DEBUG: org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\service\jpa\JpaRotatorService.class]
+DEBUG: org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\kevin\workspace\java\rotator\target\classes\com\cn\rotator\web\GoController.class]
+DEBUG: org.springframework.beans.factory.xml.BeanDefinitionParserDelegate - Neither XML &apos;id&apos; nor &apos;name&apos; specified - using generated bean name [org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0]
+DEBUG: org.springframework.beans.factory.xml.BeanDefinitionParserDelegate - Neither XML &apos;id&apos; nor &apos;name&apos; specified - using generated bean name [org.springframework.web.servlet.view.InternalResourceViewResolver#0]
+DEBUG: org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 22 bean definitions from location pattern [file:src/test/resources/spring/rotator-config.xml]
+INFO : org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@42472d48: startup date [Mon Apr 04 12:54:42 PDT 2011]; root of context hierarchy
+DEBUG: org.springframework.context.support.GenericApplicationContext - Bean factory for org.springframework.context.support.GenericApplicationContext@42472d48: org.springframework.beans.factory.support.DefaultListableBeanFactory@214a7a12: defining beans [jpaRotatorDao,jpaRotatorDestinationPathDao,rotatorService,goController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,dataSource,transactionManager,entityManagerFactory,jpaAdapter,org.springframework.web.servlet.config.viewControllerHandlerAdapter,org.springframework.web.servlet.config.viewControllerHandlerMapping,org.springframework.web.servlet.view.InternalResourceViewResolver#0]; root of factory hierarchy
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0&apos;
+INFO : org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from class path resource [jdbc.properties]
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+INFO : org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 &apos;javax.inject.Inject&apos; annotation found and supported for autowiring
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalPersistenceAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.context.annotation.internalPersistenceAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.context.annotation.internalPersistenceAnnotationProcessor&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.context.annotation.internalPersistenceAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+DEBUG: org.springframework.context.support.GenericApplicationContext - Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@26d58939]
+DEBUG: org.springframework.context.support.GenericApplicationContext - Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@298488ef]
+INFO : org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@214a7a12: defining beans [jpaRotatorDao,jpaRotatorDestinationPathDao,rotatorService,goController,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0,dataSource,transactionManager,entityManagerFactory,jpaAdapter,org.springframework.web.servlet.config.viewControllerHandlerAdapter,org.springframework.web.servlet.config.viewControllerHandlerMapping,org.springframework.web.servlet.view.InternalResourceViewResolver#0]; root of factory hierarchy
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;jpaRotatorDao&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;jpaRotatorDao&apos;
+DEBUG: org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [com.cn.rotator.domain.dao.jpa.JpaRotatorDao]: PersistenceElement for public void com.cn.rotator.domain.dao.jpa.JpaRotatorDao.setEntityManager(javax.persistence.EntityManager)
+DEBUG: org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [com.cn.rotator.domain.dao.jpa.JpaRotatorDao]: PersistenceElement for public void com.cn.rotator.domain.dao.jpa.JpaRotatorDao.setEntityManager(javax.persistence.EntityManager)
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;jpaRotatorDao&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean &apos;jpaRotatorDao&apos;: PersistenceElement for public void com.cn.rotator.domain.dao.jpa.JpaRotatorDao.setEntityManager(javax.persistence.EntityManager)
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;entityManagerFactory&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;entityManagerFactory&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;entityManagerFactory&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;dataSource&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;dataSource&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;dataSource&apos; to allow for resolving potential circular references
+INFO : org.springframework.jdbc.datasource.DriverManagerDataSource - Loaded JDBC driver: org.hibernate.dialect.MySQLDialect
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;dataSource&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;jpaAdapter&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;jpaAdapter&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;jpaAdapter&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.BeanUtils - No property editor [org.springframework.orm.jpa.vendor.DatabaseEditor] found for type org.springframework.orm.jpa.vendor.Database according to &apos;Editor&apos; suffix convention
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;jpaAdapter&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name &apos;entityManagerFactory&apos;
+INFO : org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit &apos;rotator&apos;
+INFO : org.hibernate.cfg.annotations.Version - Hibernate Annotations 3.5.0.Beta1
+INFO : org.hibernate.cfg.Environment - Hibernate 3.5.0-Beta-2
+INFO : org.hibernate.cfg.Environment - hibernate.properties not found
+INFO : org.hibernate.cfg.Environment - Bytecode provider name : javassist
+INFO : org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -&gt; [class org.hibernate.id.UUIDHexGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [hilo] -&gt; [class org.hibernate.id.TableHiLoGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -&gt; [class org.hibernate.id.Assigned]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -&gt; [class org.hibernate.id.IdentityGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -&gt; [class org.hibernate.id.SelectGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -&gt; [class org.hibernate.id.SequenceGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -&gt; [class org.hibernate.id.SequenceHiLoGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -&gt; [class org.hibernate.id.IncrementGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -&gt; [class org.hibernate.id.ForeignGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -&gt; [class org.hibernate.id.GUIDGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -&gt; [class org.hibernate.id.UUIDHexGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -&gt; [class org.hibernate.id.SequenceIdentityGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -&gt; [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -&gt; [class org.hibernate.id.enhanced.TableGenerator]
+INFO : org.hibernate.annotations.common.Version - Hibernate Commons Annotations 3.2.0-SNAPSHOT
+INFO : org.hibernate.ejb.Version - Hibernate EntityManager 3.5.0.Beta1
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -&gt; [class org.hibernate.id.UUIDHexGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [hilo] -&gt; [class org.hibernate.id.TableHiLoGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -&gt; [class org.hibernate.id.Assigned]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -&gt; [class org.hibernate.id.IdentityGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -&gt; [class org.hibernate.id.SelectGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -&gt; [class org.hibernate.id.SequenceGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -&gt; [class org.hibernate.id.SequenceHiLoGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -&gt; [class org.hibernate.id.IncrementGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -&gt; [class org.hibernate.id.ForeignGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -&gt; [class org.hibernate.id.GUIDGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -&gt; [class org.hibernate.id.UUIDHexGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -&gt; [class org.hibernate.id.SequenceIdentityGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -&gt; [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -&gt; [class org.hibernate.id.enhanced.TableGenerator]
+DEBUG: org.hibernate.ejb.Ejb3Configuration - Processing PersistenceUnitInfo [
+	name: rotator
+	persistence provider classname: null
+	classloader: sun.misc.Launcher$AppClassLoader@6d6f0472
+	Temporary classloader: org.springframework.instrument.classloading.SimpleThrowawayClassLoader@13cc0a7f
+	excludeUnlistedClasses: false
+	JTA datasource: null
+	Non JTA datasource: org.springframework.jdbc.datasource.DriverManagerDataSource@38c52200
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/C:/Users/kevin/workspace/java/rotator/target/classes/
+	Jar files URLs []
+	Managed classes names [
+		com.cn.rotator.domain.dom.Rotator
+		com.cn.rotator.domain.dom.RotatorDestinationPath]
+	Mapping files names []
+	Properties []
+DEBUG: org.hibernate.ejb.Ejb3Configuration - Detect class: true; detect hbm: true
+DEBUG: org.hibernate.ejb.Ejb3Configuration - Detect class: true; detect hbm: true
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Searching mapped entities in jar/par: file:/C:/Users/kevin/workspace/java/rotator/target/classes/
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.domain.dao.jpa.JpaRotatorDao
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.domain.dao.jpa.JpaRotatorDestinationPathDao
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.domain.dao.RotatorDao
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.domain.dao.RotatorDestinationPathDao
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.domain.dom.Advertiser
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Java element filter matched for com.cn.rotator.domain.dom.Advertiser
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.domain.dom.CampaignReportingType
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Java element filter matched for com.cn.rotator.domain.dom.CampaignReportingType
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.domain.dom.CampaignType
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Java element filter matched for com.cn.rotator.domain.dom.CampaignType
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.domain.dom.ConvertedTraffic
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Java element filter matched for com.cn.rotator.domain.dom.ConvertedTraffic
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.domain.dom.Countryurlcampaign
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Java element filter matched for com.cn.rotator.domain.dom.Countryurlcampaign
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.domain.dom.Rotator
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Java element filter matched for com.cn.rotator.domain.dom.Rotator
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.domain.dom.RotatorDestinationPath
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Java element filter matched for com.cn.rotator.domain.dom.RotatorDestinationPath
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.service.jpa.JpaRotatorService
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.service.RotatorService
+DEBUG: org.hibernate.ejb.packaging.AbstractJarVisitor - Filtering: com.cn.rotator.web.GoController
+DEBUG: org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG: org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG: org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+INFO : org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.cn.rotator.domain.dom.Rotator
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column DTYPE. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.EntityBinder - Import with entity name Rotator
+INFO : org.hibernate.cfg.annotations.EntityBinder - Bind entity com.cn.rotator.domain.dom.Rotator on table Rotator
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing com.cn.rotator.domain.dom.Rotator property annotation
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing com.cn.rotator.domain.dom.Rotator field annotation
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Rotator.id
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column id. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.AnnotationBinder - id is an id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Rotator.active
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column active. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property active with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for active
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property active
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Rotator.createdAt
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column created_at. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property createdAt with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for createdAt
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property createdAt
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Rotator.rotatorDestinationPaths
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column rotator_id. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column rotatorDestinationPaths. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column null. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column element. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column rotatorDestinationPaths_KEY. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column rotatorDestinationPaths_KEY. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column null. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column null. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.CollectionBinder - Collection role: com.cn.rotator.domain.dom.Rotator.rotatorDestinationPaths
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property rotatorDestinationPaths
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Rotator.rotatorName
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column rotator_name. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property rotatorName with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for rotatorName
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property rotatorName
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Rotator.updatedAt
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column updated_at. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property updatedAt with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for updatedAt
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property updatedAt
+INFO : org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.cn.rotator.domain.dom.RotatorDestinationPath
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column DTYPE. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.EntityBinder - Import with entity name RotatorDestinationPath
+INFO : org.hibernate.cfg.annotations.EntityBinder - Bind entity com.cn.rotator.domain.dom.RotatorDestinationPath on table RotatorDestinationPath
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing com.cn.rotator.domain.dom.RotatorDestinationPath property annotation
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing com.cn.rotator.domain.dom.RotatorDestinationPath field annotation
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.RotatorDestinationPath.id
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column id. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.AnnotationBinder - id is an id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.RotatorDestinationPath.active
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column active. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property active with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for active
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property active
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.RotatorDestinationPath.createdAt
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column created_at. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property createdAt with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for createdAt
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property createdAt
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.RotatorDestinationPath.pathName
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column path_name. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property pathName with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for pathName
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property pathName
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.RotatorDestinationPath.pathPercent
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column path_percent. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property pathPercent with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for pathPercent
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property pathPercent
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.RotatorDestinationPath.rotator
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column rotator_id. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column rotator. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property rotator
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.RotatorDestinationPath.updatedAt
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column updated_at. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property updatedAt with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for updatedAt
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property updatedAt
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.RotatorDestinationPath.url
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column url. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property url with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for url
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property url
+INFO : org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.cn.rotator.domain.dom.Advertiser
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column DTYPE. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.EntityBinder - Import with entity name Advertiser
+INFO : org.hibernate.cfg.annotations.EntityBinder - Bind entity com.cn.rotator.domain.dom.Advertiser on table Advertiser
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing com.cn.rotator.domain.dom.Advertiser property annotation
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Advertiser.id
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column id. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.AnnotationBinder - id is an id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Advertiser.advertiserName
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column advertiser_name. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property advertiserName with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for advertiserName
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property advertiserName
+INFO : org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.cn.rotator.domain.dom.CampaignReportingType
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column DTYPE. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.EntityBinder - Import with entity name CampaignReportingType
+INFO : org.hibernate.cfg.annotations.EntityBinder - Bind entity com.cn.rotator.domain.dom.CampaignReportingType on table CampaignReportingType
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing com.cn.rotator.domain.dom.CampaignReportingType property annotation
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.CampaignReportingType.id
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column id. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.AnnotationBinder - id is an id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.CampaignReportingType.reportingType
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column reporting_type. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property reportingType with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for reportingType
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property reportingType
+INFO : org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.cn.rotator.domain.dom.ConvertedTraffic
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column DTYPE. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.EntityBinder - Import with entity name ConvertedTraffic
+INFO : org.hibernate.cfg.annotations.EntityBinder - Bind entity com.cn.rotator.domain.dom.ConvertedTraffic on table ConvertedTraffic
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing com.cn.rotator.domain.dom.ConvertedTraffic property annotation
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.ConvertedTraffic.id
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column id. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.AnnotationBinder - id is an id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.ConvertedTraffic.createdAt
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column created_at. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property createdAt with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for createdAt
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property createdAt
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.ConvertedTraffic.rawTrafficId
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column raw_traffic_id. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property rawTrafficId with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for rawTrafficId
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property rawTrafficId
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.ConvertedTraffic.requestDataId
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column request_data_id. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property requestDataId with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for requestDataId
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property requestDataId
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.ConvertedTraffic.tag
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column tag. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property tag with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for tag
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property tag
+INFO : org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.cn.rotator.domain.dom.Countryurlcampaign
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column DTYPE. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.EntityBinder - Import with entity name Countryurlcampaign
+INFO : org.hibernate.cfg.annotations.EntityBinder - Bind entity com.cn.rotator.domain.dom.Countryurlcampaign on table CountryUrlCampaign
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing com.cn.rotator.domain.dom.Countryurlcampaign property annotation
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Countryurlcampaign.id
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column id. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.AnnotationBinder - id is an id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Countryurlcampaign.advertiserId
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column advertiser_id. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property advertiserId with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for advertiserId
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property advertiserId
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Countryurlcampaign.campaignName
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column campaign_name. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property campaignName with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for campaignName
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property campaignName
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Countryurlcampaign.campaignTypeId
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column campaign_type_id. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property campaignTypeId with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for campaignTypeId
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property campaignTypeId
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Countryurlcampaign.campaignUrl
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column campaign_url. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property campaignUrl with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for campaignUrl
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property campaignUrl
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Countryurlcampaign.campaignValue
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column campaign_value. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property campaignValue with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for campaignValue
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property campaignValue
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Countryurlcampaign.countryCode
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column country_code. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property countryCode with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for countryCode
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property countryCode
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.Countryurlcampaign.reportingTypeId
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column reporting_type_id. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property reportingTypeId with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for reportingTypeId
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property reportingTypeId
+INFO : org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.cn.rotator.domain.dom.CampaignType
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column DTYPE. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.annotations.EntityBinder - Import with entity name CampaignType
+INFO : org.hibernate.cfg.annotations.EntityBinder - Bind entity com.cn.rotator.domain.dom.CampaignType on table CampaignType
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing com.cn.rotator.domain.dom.CampaignType property annotation
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.CampaignType.id
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column id. Unique false. Nullable false.
+DEBUG: org.hibernate.cfg.AnnotationBinder - id is an id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Bind @Id on id
+DEBUG: org.hibernate.cfg.AnnotationBinder - Processing annotations of com.cn.rotator.domain.dom.CampaignType.campaignType
+DEBUG: org.hibernate.cfg.Ejb3Column - Binding column campaign_type. Unique false. Nullable true.
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - binding property campaignType with lazy=false
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for campaignType
+DEBUG: org.hibernate.cfg.annotations.PropertyBinder - Building property campaignType
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for active
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for createdAt
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for rotatorName
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for updatedAt
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for active
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for createdAt
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for pathName
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for pathPercent
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for updatedAt
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for url
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for advertiserName
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for reportingType
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for createdAt
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for rawTrafficId
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for requestDataId
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for tag
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for advertiserId
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for campaignName
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for campaignTypeId
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for campaignUrl
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for campaignValue
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for countryCode
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for reportingTypeId
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for id
+DEBUG: org.hibernate.cfg.annotations.SimpleValueBinder - setting SimpleValue typeName for campaignType
+DEBUG: org.hibernate.cfg.AnnotationConfiguration - processing fk mappings (*ToOne and JoinedSubclass)
+DEBUG: org.hibernate.cfg.Configuration - processing extends queue
+DEBUG: org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG: org.hibernate.cfg.CollectionSecondPass - Second pass for collection: com.cn.rotator.domain.dom.Rotator.rotatorDestinationPaths
+DEBUG: org.hibernate.cfg.annotations.CollectionBinder - Binding a OneToMany: com.cn.rotator.domain.dom.Rotator.rotatorDestinationPaths through a foreign key
+INFO : org.hibernate.cfg.annotations.CollectionBinder - Mapping collection: com.cn.rotator.domain.dom.Rotator.rotatorDestinationPaths -&gt; RotatorDestinationPath
+DEBUG: org.hibernate.cfg.CollectionSecondPass - Mapped collection key: rotator_id, one-to-many: com.cn.rotator.domain.dom.RotatorDestinationPath
+DEBUG: org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG: org.hibernate.cfg.Configuration - processing association property references
+DEBUG: org.hibernate.cfg.Configuration - processing foreign key constraints
+DEBUG: org.hibernate.cfg.Configuration - resolving reference to class: com.cn.rotator.domain.dom.Rotator
+INFO : org.hibernate.cfg.AnnotationConfiguration - Hibernate Validator not found: ignoring
+INFO : org.hibernate.validator.util.Version - Hibernate Validator 4.0.2.GA
+DEBUG: org.hibernate.validator.engine.ResourceBundleMessageInterpolator - ValidationMessages not found. Delegating to org.hibernate.validator.ValidationMessages
+DEBUG: org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Found javax.persistence.PersistenceUtil on classpath.
+INFO : org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+DEBUG: org.hibernate.validator.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only
+DEBUG: org.hibernate.ejb.util.NamingHelper - No JNDI name configured for binding Ejb3Configuration
+DEBUG: org.hibernate.cfg.AnnotationConfiguration - Legacy Validator not present in classpath, ignoring event listener registration
+DEBUG: org.hibernate.validator.engine.ResourceBundleMessageInterpolator - ValidationMessages not found. Delegating to org.hibernate.validator.ValidationMessages
+DEBUG: org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Found javax.persistence.PersistenceUtil on classpath.
+INFO : org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+DEBUG: org.hibernate.validator.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only
+DEBUG: org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Search not present in classpath, ignoring event listener registration.
+INFO : org.hibernate.cfg.search.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+DEBUG: org.hibernate.cfg.Configuration - Preparing to build session factory with filters : {}
+DEBUG: org.hibernate.cfg.AnnotationConfiguration - Execute first pass mapping processing
+DEBUG: org.hibernate.cfg.AnnotationConfiguration - Process hbm files
+DEBUG: org.hibernate.cfg.AnnotationConfiguration - Process annotated classes
+DEBUG: org.hibernate.cfg.AnnotationConfiguration - processing fk mappings (*ToOne and JoinedSubclass)
+DEBUG: org.hibernate.cfg.Configuration - processing extends queue
+DEBUG: org.hibernate.cfg.Configuration - processing collection mappings
+DEBUG: org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+DEBUG: org.hibernate.cfg.Configuration - processing association property references
+DEBUG: org.hibernate.cfg.Configuration - processing foreign key constraints
+DEBUG: org.hibernate.cfg.Configuration - resolving reference to class: com.cn.rotator.domain.dom.Rotator
+DEBUG: org.hibernate.validator.engine.ResourceBundleMessageInterpolator - ValidationMessages not found. Delegating to org.hibernate.validator.ValidationMessages
+DEBUG: org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Found javax.persistence.PersistenceUtil on classpath.
+INFO : org.hibernate.validator.engine.resolver.DefaultTraversableResolver - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+DEBUG: org.hibernate.validator.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only
+INFO : org.hibernate.connection.ConnectionProviderFactory - Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+INFO : org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider - Using provided datasource
+DEBUG: org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/rotator]
+INFO : org.hibernate.cfg.SettingsFactory - RDBMS: MySQL, version: 5.5.8
+INFO : org.hibernate.cfg.SettingsFactory - JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.1.12 ( Revision: ${bzr.revision-id} )
+INFO : org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQLDialect
+INFO : org.hibernate.transaction.TransactionFactoryFactory - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+INFO : org.hibernate.transaction.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+INFO : org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+INFO : org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+INFO : org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+INFO : org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+INFO : org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+DEBUG: org.hibernate.cfg.SettingsFactory - Wrap result sets: disabled
+INFO : org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+INFO : org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+INFO : org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+INFO : org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+INFO : org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+INFO : org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+INFO : org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+INFO : org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+INFO : org.hibernate.hql.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+INFO : org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+INFO : org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: enabled
+INFO : org.hibernate.cfg.SettingsFactory - Second-level cache: enabled
+INFO : org.hibernate.cfg.SettingsFactory - Query cache: disabled
+INFO : org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+INFO : org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+INFO : org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+INFO : org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+INFO : org.hibernate.cfg.SettingsFactory - Statistics: disabled
+INFO : org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+INFO : org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+INFO : org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+INFO : org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+INFO : org.hibernate.impl.SessionFactoryImpl - building session factory
+DEBUG: org.hibernate.impl.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+DEBUG: org.hibernate.impl.SessionFactoryImpl - instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.6.0_24\jre\bin, java.vm.version=19.1-b02, java.vm.vendor=Sun Microsystems Inc., java.vendor.url=http://java.sun.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\kevin\workspace\java\rotator, java.runtime.version=1.6.0_24-b07, hibernate.ejb.discard_pc_on_close=false, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, basedir=C:\Users\kevin\workspace\java\rotator, java.endorsed.dirs=C:\Program Files\Java\jdk1.6.0_24\jre\lib\endorsed, os.arch=amd64, surefire.real.class.path=C:\Users\kevin\workspace\java\rotator\target\surefire\surefirebooter48758101889101508.jar, hibernate.check_nullability=false, hibernate.connection.autocommit=true, java.io.tmpdir=C:\Users\kevin\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Sun Microsystems Inc., user.variant=, os.name=Windows 7, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.6.0_24\jre\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Users\kevin\workspace\bin;C:\Program Files (x86)\Git\cmd;C:\Users\kevin\workspace\lib\scala-2.8.1.final\bin;C:\Program Files\Java\jdk1.6.0_24\bin, surefire.test.class.path=C:\Users\kevin\workspace\java\rotator\target\test-classes;C:\Users\kevin\workspace\java\rotator\target\classes;C:\Users\kevin\.m2\repository\org\springframework\spring-context\3.0.5.RELEASE\spring-context-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-expression\3.0.5.RELEASE\spring-expression-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-asm\3.0.5.RELEASE\spring-asm-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-webmvc\3.0.5.RELEASE\spring-webmvc-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-core\3.0.5.RELEASE\spring-core-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-web\3.0.5.RELEASE\spring-web-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-beans\3.0.5.RELEASE\spring-beans-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-aop\3.0.5.RELEASE\spring-aop-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-context-support\3.0.5.RELEASE\spring-context-support-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-tx\3.0.5.RELEASE\spring-tx-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-jdbc\3.0.5.RELEASE\spring-jdbc-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-test\3.0.5.RELEASE\spring-test-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\hibernate\java-persistence\jpa-api\2.0-cr-1\jpa-api-2.0-cr-1.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-entitymanager\3.5.0-Beta-2\hibernate-entitymanager-3.5.0-Beta-2.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-core\3.5.0-Beta-2\hibernate-core-3.5.0-Beta-2.jar;C:\Users\kevin\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\kevin\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\kevin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\kevin\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\kevin\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-annotations\3.5.0-Beta-2\hibernate-annotations-3.5.0-Beta-2.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Beta1\hibernate-commons-annotations-3.2.0.Beta1.jar;C:\Users\kevin\.m2\repository\cglib\cglib\2.2\cglib-2.2.jar;C:\Users\kevin\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\kevin\.m2\repository\javassist\javassist\3.9.0.GA\javassist-3.9.0.GA.jar;C:\Users\kevin\.m2\repository\hsqldb\hsqldb\1.8.0.7\hsqldb-1.8.0.7.jar;C:\Users\kevin\.m2\repository\mysql\mysql-connector-java\5.1.12\mysql-connector-java-5.1.12.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-orm\3.0.5.RELEASE\spring-orm-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\slf4j\slf4j-api\1.5.10\slf4j-api-1.5.10.jar;C:\Users\kevin\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.10\jcl-over-slf4j-1.5.10.jar;C:\Users\kevin\.m2\repository\org\slf4j\slf4j-log4j12\1.5.10\slf4j-log4j12-1.5.10.jar;C:\Users\kevin\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\kevin\.m2\repository\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-validator\4.0.2.GA\hibernate-validator-4.0.2.GA.jar;C:\Users\kevin\.m2\repository\javax\xml\bind\jaxb-api\2.1\jaxb-api-2.1.jar;C:\Users\kevin\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\kevin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\kevin\.m2\repository\com\sun\xml\bind\jaxb-impl\2.1.3\jaxb-impl-2.1.3.jar;C:\Users\kevin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\kevin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\kevin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\kevin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\kevin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;, java.specification.name=Java Platform API Specification, java.class.version=50.0, sun.management.compiler=HotSpot 64-Bit Server Compiler, hibernate.transaction.factory_class=org.hibernate.transaction.JDBCTransactionFactory, os.version=6.1, user.home=C:\Users\kevin, user.timezone=America/Los_Angeles, java.awt.printerjob=sun.awt.windows.WPrinterJob, hibernate.connection.release_mode=auto, java.specification.version=1.6, file.encoding=Cp1252, user.name=kevin, java.class.path=C:\Users\kevin\workspace\java\rotator\target\test-classes;C:\Users\kevin\workspace\java\rotator\target\classes;C:\Users\kevin\.m2\repository\org\springframework\spring-context\3.0.5.RELEASE\spring-context-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-expression\3.0.5.RELEASE\spring-expression-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-asm\3.0.5.RELEASE\spring-asm-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-webmvc\3.0.5.RELEASE\spring-webmvc-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-core\3.0.5.RELEASE\spring-core-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-web\3.0.5.RELEASE\spring-web-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-beans\3.0.5.RELEASE\spring-beans-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-aop\3.0.5.RELEASE\spring-aop-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-context-support\3.0.5.RELEASE\spring-context-support-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-tx\3.0.5.RELEASE\spring-tx-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-jdbc\3.0.5.RELEASE\spring-jdbc-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-test\3.0.5.RELEASE\spring-test-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\hibernate\java-persistence\jpa-api\2.0-cr-1\jpa-api-2.0-cr-1.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-entitymanager\3.5.0-Beta-2\hibernate-entitymanager-3.5.0-Beta-2.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-core\3.5.0-Beta-2\hibernate-core-3.5.0-Beta-2.jar;C:\Users\kevin\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\kevin\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\kevin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\kevin\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\kevin\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-annotations\3.5.0-Beta-2\hibernate-annotations-3.5.0-Beta-2.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Beta1\hibernate-commons-annotations-3.2.0.Beta1.jar;C:\Users\kevin\.m2\repository\cglib\cglib\2.2\cglib-2.2.jar;C:\Users\kevin\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\kevin\.m2\repository\javassist\javassist\3.9.0.GA\javassist-3.9.0.GA.jar;C:\Users\kevin\.m2\repository\hsqldb\hsqldb\1.8.0.7\hsqldb-1.8.0.7.jar;C:\Users\kevin\.m2\repository\mysql\mysql-connector-java\5.1.12\mysql-connector-java-5.1.12.jar;C:\Users\kevin\.m2\repository\org\springframework\spring-orm\3.0.5.RELEASE\spring-orm-3.0.5.RELEASE.jar;C:\Users\kevin\.m2\repository\org\slf4j\slf4j-api\1.5.10\slf4j-api-1.5.10.jar;C:\Users\kevin\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.10\jcl-over-slf4j-1.5.10.jar;C:\Users\kevin\.m2\repository\org\slf4j\slf4j-log4j12\1.5.10\slf4j-log4j12-1.5.10.jar;C:\Users\kevin\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\kevin\.m2\repository\javax\validation\validation-api\1.0.0.GA\validation-api-1.0.0.GA.jar;C:\Users\kevin\.m2\repository\org\hibernate\hibernate-validator\4.0.2.GA\hibernate-validator-4.0.2.GA.jar;C:\Users\kevin\.m2\repository\javax\xml\bind\jaxb-api\2.1\jaxb-api-2.1.jar;C:\Users\kevin\.m2\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;C:\Users\kevin\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\kevin\.m2\repository\com\sun\xml\bind\jaxb-impl\2.1.3\jaxb-impl-2.1.3.jar;C:\Users\kevin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\kevin\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\kevin\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\kevin\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\kevin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, hibernate.use_identifier_rollback=false, java.vm.specification.version=1.0, sun.arch.data.model=64, java.home=C:\Program Files\Java\jdk1.6.0_24\jre, netbeans.execution=true, hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.specification.vendor=Sun Microsystems Inc., user.language=en, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.6.0_24, hibernate.transaction.flush_before_completion=false, java.ext.dirs=C:\Program Files\Java\jdk1.6.0_24\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.6.0_24\jre\lib\resources.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\jce.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.6.0_24\jre\lib\modules\jdk.boot.jar;C:\Program Files\Java\jdk1.6.0_24\jre\classes, java.vendor=Sun Microsystems Inc., localRepository=C:\Users\kevin\.m2\repository, file.separator=\, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, hibernate.connection.provider_class=org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, hibernate.query.jpaql_strict_compliance=true, sun.desktop=windows, sun.cpu.isalist=amd64}
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQLDialect]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQLDialect]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQLDialect]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQLDialect]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQLDialect]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQLDialect]
+DEBUG: org.hibernate.id.factory.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQLDialect]
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: com.cn.rotator.domain.dom.RotatorDestinationPath
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from RotatorDestinationPath where id =?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select rotatordes_.id, rotatordes_.active as active1_, rotatordes_.created_at as created3_1_, rotatordes_.path_name as path4_1_, rotatordes_.path_percent as path5_1_, rotatordes_.rotator_id as rotator8_1_, rotatordes_.updated_at as updated6_1_, rotatordes_.url as url1_ from RotatorDestinationPath rotatordes_ where rotatordes_.id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into RotatorDestinationPath (active, created_at, path_name, path_percent, rotator_id, updated_at, url, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update RotatorDestinationPath set active=?, created_at=?, path_name=?, path_percent=?, rotator_id=?, updated_at=?, url=? where id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from RotatorDestinationPath where id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Identity insert: insert into RotatorDestinationPath (active, created_at, path_name, path_percent, rotator_id, updated_at, url) values (?, ?, ?, ?, ?, ?, ?)
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: com.cn.rotator.domain.dom.Advertiser
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from Advertiser where id =?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select advertiser_.id, advertiser_.advertiser_name as advertiser2_2_ from Advertiser advertiser_ where advertiser_.id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into Advertiser (advertiser_name, id) values (?, ?)
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update Advertiser set advertiser_name=? where id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from Advertiser where id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Identity insert: insert into Advertiser (advertiser_name) values (?)
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: com.cn.rotator.domain.dom.CampaignType
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from CampaignType where id =?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select campaignty_.id, campaignty_.campaign_type as campaign2_6_ from CampaignType campaignty_ where campaignty_.id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into CampaignType (campaign_type, id) values (?, ?)
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update CampaignType set campaign_type=? where id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from CampaignType where id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: com.cn.rotator.domain.dom.Countryurlcampaign
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from CountryUrlCampaign where id =?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select countryurl_.id, countryurl_.advertiser_id as advertiser2_5_, countryurl_.campaign_name as campaign3_5_, countryurl_.campaign_type_id as campaign4_5_, countryurl_.campaign_url as campaign5_5_, countryurl_.campaign_value as campaign6_5_, countryurl_.country_code as country7_5_, countryurl_.reporting_type_id as reporting8_5_ from CountryUrlCampaign countryurl_ where countryurl_.id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into CountryUrlCampaign (advertiser_id, campaign_name, campaign_type_id, campaign_url, campaign_value, country_code, reporting_type_id, id) values (?, ?, ?, ?, ?, ?, ?, ?)
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update CountryUrlCampaign set advertiser_id=?, campaign_name=?, campaign_type_id=?, campaign_url=?, campaign_value=?, country_code=?, reporting_type_id=? where id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from CountryUrlCampaign where id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Identity insert: insert into CountryUrlCampaign (advertiser_id, campaign_name, campaign_type_id, campaign_url, campaign_value, country_code, reporting_type_id) values (?, ?, ?, ?, ?, ?, ?)
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: com.cn.rotator.domain.dom.Rotator
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from Rotator where id =?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select rotator_.id, rotator_.active as active0_, rotator_.created_at as created3_0_, rotator_.rotator_name as rotator4_0_, rotator_.updated_at as updated5_0_ from Rotator rotator_ where rotator_.id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into Rotator (active, created_at, rotator_name, updated_at, id) values (?, ?, ?, ?, ?)
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update Rotator set active=?, created_at=?, rotator_name=?, updated_at=? where id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from Rotator where id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Identity insert: insert into Rotator (active, created_at, rotator_name, updated_at) values (?, ?, ?, ?)
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: com.cn.rotator.domain.dom.CampaignReportingType
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from CampaignReportingType where id =?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select campaignre_.id, campaignre_.reporting_type as reporting2_3_ from CampaignReportingType campaignre_ where campaignre_.id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into CampaignReportingType (reporting_type, id) values (?, ?)
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update CampaignReportingType set reporting_type=? where id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from CampaignReportingType where id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: com.cn.rotator.domain.dom.ConvertedTraffic
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from ConvertedTraffic where id =?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select convertedt_.id, convertedt_.created_at as created2_4_, convertedt_.raw_traffic_id as raw3_4_, convertedt_.request_data_id as request4_4_, convertedt_.tag as tag4_ from ConvertedTraffic convertedt_ where convertedt_.id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into ConvertedTraffic (created_at, raw_traffic_id, request_data_id, tag, id) values (?, ?, ?, ?, ?)
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Update 0: update ConvertedTraffic set created_at=?, raw_traffic_id=?, request_data_id=?, tag=? where id=?
+DEBUG: org.hibernate.persister.entity.AbstractEntityPersister -  Delete 0: delete from ConvertedTraffic where id=?
+DEBUG: org.hibernate.persister.collection.AbstractCollectionPersister - Static SQL for collection: com.cn.rotator.domain.dom.Rotator.rotatorDestinationPaths
+DEBUG: org.hibernate.persister.collection.AbstractCollectionPersister -  Row insert: update RotatorDestinationPath set rotator_id=? where id=?
+DEBUG: org.hibernate.persister.collection.AbstractCollectionPersister -  Row delete: update RotatorDestinationPath set rotator_id=null where rotator_id=? and id=?
+DEBUG: org.hibernate.persister.collection.AbstractCollectionPersister -  One-shot delete: update RotatorDestinationPath set rotator_id=null where rotator_id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.RotatorDestinationPath: select rotatordes0_.id as id1_0_, rotatordes0_.active as active1_0_, rotatordes0_.created_at as created3_1_0_, rotatordes0_.path_name as path4_1_0_, rotatordes0_.path_percent as path5_1_0_, rotatordes0_.rotator_id as rotator8_1_0_, rotatordes0_.updated_at as updated6_1_0_, rotatordes0_.url as url1_0_ from RotatorDestinationPath rotatordes0_ where rotatordes0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.RotatorDestinationPath: select rotatordes0_.id as id1_0_, rotatordes0_.active as active1_0_, rotatordes0_.created_at as created3_1_0_, rotatordes0_.path_name as path4_1_0_, rotatordes0_.path_percent as path5_1_0_, rotatordes0_.rotator_id as rotator8_1_0_, rotatordes0_.updated_at as updated6_1_0_, rotatordes0_.url as url1_0_ from RotatorDestinationPath rotatordes0_ where rotatordes0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.RotatorDestinationPath: select rotatordes0_.id as id1_0_, rotatordes0_.active as active1_0_, rotatordes0_.created_at as created3_1_0_, rotatordes0_.path_name as path4_1_0_, rotatordes0_.path_percent as path5_1_0_, rotatordes0_.rotator_id as rotator8_1_0_, rotatordes0_.updated_at as updated6_1_0_, rotatordes0_.url as url1_0_ from RotatorDestinationPath rotatordes0_ where rotatordes0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.RotatorDestinationPath: select rotatordes0_.id as id1_0_, rotatordes0_.active as active1_0_, rotatordes0_.created_at as created3_1_0_, rotatordes0_.path_name as path4_1_0_, rotatordes0_.path_percent as path5_1_0_, rotatordes0_.rotator_id as rotator8_1_0_, rotatordes0_.updated_at as updated6_1_0_, rotatordes0_.url as url1_0_ from RotatorDestinationPath rotatordes0_ where rotatordes0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.RotatorDestinationPath: select rotatordes0_.id as id1_0_, rotatordes0_.active as active1_0_, rotatordes0_.created_at as created3_1_0_, rotatordes0_.path_name as path4_1_0_, rotatordes0_.path_percent as path5_1_0_, rotatordes0_.rotator_id as rotator8_1_0_, rotatordes0_.updated_at as updated6_1_0_, rotatordes0_.url as url1_0_ from RotatorDestinationPath rotatordes0_ where rotatordes0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity com.cn.rotator.domain.dom.RotatorDestinationPath: select rotatordes0_.id as id1_0_, rotatordes0_.active as active1_0_, rotatordes0_.created_at as created3_1_0_, rotatordes0_.path_name as path4_1_0_, rotatordes0_.path_percent as path5_1_0_, rotatordes0_.rotator_id as rotator8_1_0_, rotatordes0_.updated_at as updated6_1_0_, rotatordes0_.url as url1_0_ from RotatorDestinationPath rotatordes0_ where rotatordes0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity com.cn.rotator.domain.dom.RotatorDestinationPath: select rotatordes0_.id as id1_0_, rotatordes0_.active as active1_0_, rotatordes0_.created_at as created3_1_0_, rotatordes0_.path_name as path4_1_0_, rotatordes0_.path_percent as path5_1_0_, rotatordes0_.rotator_id as rotator8_1_0_, rotatordes0_.updated_at as updated6_1_0_, rotatordes0_.url as url1_0_ from RotatorDestinationPath rotatordes0_ where rotatordes0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Advertiser: select advertiser0_.id as id2_0_, advertiser0_.advertiser_name as advertiser2_2_0_ from Advertiser advertiser0_ where advertiser0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Advertiser: select advertiser0_.id as id2_0_, advertiser0_.advertiser_name as advertiser2_2_0_ from Advertiser advertiser0_ where advertiser0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Advertiser: select advertiser0_.id as id2_0_, advertiser0_.advertiser_name as advertiser2_2_0_ from Advertiser advertiser0_ where advertiser0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Advertiser: select advertiser0_.id as id2_0_, advertiser0_.advertiser_name as advertiser2_2_0_ from Advertiser advertiser0_ where advertiser0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Advertiser: select advertiser0_.id as id2_0_, advertiser0_.advertiser_name as advertiser2_2_0_ from Advertiser advertiser0_ where advertiser0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity com.cn.rotator.domain.dom.Advertiser: select advertiser0_.id as id2_0_, advertiser0_.advertiser_name as advertiser2_2_0_ from Advertiser advertiser0_ where advertiser0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity com.cn.rotator.domain.dom.Advertiser: select advertiser0_.id as id2_0_, advertiser0_.advertiser_name as advertiser2_2_0_ from Advertiser advertiser0_ where advertiser0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Rotator: select rotator0_.id as id0_0_, rotator0_.active as active0_0_, rotator0_.created_at as created3_0_0_, rotator0_.rotator_name as rotator4_0_0_, rotator0_.updated_at as updated5_0_0_ from Rotator rotator0_ where rotator0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Rotator: select rotator0_.id as id0_0_, rotator0_.active as active0_0_, rotator0_.created_at as created3_0_0_, rotator0_.rotator_name as rotator4_0_0_, rotator0_.updated_at as updated5_0_0_ from Rotator rotator0_ where rotator0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Rotator: select rotator0_.id as id0_0_, rotator0_.active as active0_0_, rotator0_.created_at as created3_0_0_, rotator0_.rotator_name as rotator4_0_0_, rotator0_.updated_at as updated5_0_0_ from Rotator rotator0_ where rotator0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Rotator: select rotator0_.id as id0_0_, rotator0_.active as active0_0_, rotator0_.created_at as created3_0_0_, rotator0_.rotator_name as rotator4_0_0_, rotator0_.updated_at as updated5_0_0_ from Rotator rotator0_ where rotator0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Rotator: select rotator0_.id as id0_0_, rotator0_.active as active0_0_, rotator0_.created_at as created3_0_0_, rotator0_.rotator_name as rotator4_0_0_, rotator0_.updated_at as updated5_0_0_ from Rotator rotator0_ where rotator0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity com.cn.rotator.domain.dom.Rotator: select rotator0_.id as id0_0_, rotator0_.active as active0_0_, rotator0_.created_at as created3_0_0_, rotator0_.rotator_name as rotator4_0_0_, rotator0_.updated_at as updated5_0_0_ from Rotator rotator0_ where rotator0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity com.cn.rotator.domain.dom.Rotator: select rotator0_.id as id0_0_, rotator0_.active as active0_0_, rotator0_.created_at as created3_0_0_, rotator0_.rotator_name as rotator4_0_0_, rotator0_.updated_at as updated5_0_0_ from Rotator rotator0_ where rotator0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Countryurlcampaign: select countryurl0_.id as id5_0_, countryurl0_.advertiser_id as advertiser2_5_0_, countryurl0_.campaign_name as campaign3_5_0_, countryurl0_.campaign_type_id as campaign4_5_0_, countryurl0_.campaign_url as campaign5_5_0_, countryurl0_.campaign_value as campaign6_5_0_, countryurl0_.country_code as country7_5_0_, countryurl0_.reporting_type_id as reporting8_5_0_ from CountryUrlCampaign countryurl0_ where countryurl0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Countryurlcampaign: select countryurl0_.id as id5_0_, countryurl0_.advertiser_id as advertiser2_5_0_, countryurl0_.campaign_name as campaign3_5_0_, countryurl0_.campaign_type_id as campaign4_5_0_, countryurl0_.campaign_url as campaign5_5_0_, countryurl0_.campaign_value as campaign6_5_0_, countryurl0_.country_code as country7_5_0_, countryurl0_.reporting_type_id as reporting8_5_0_ from CountryUrlCampaign countryurl0_ where countryurl0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Countryurlcampaign: select countryurl0_.id as id5_0_, countryurl0_.advertiser_id as advertiser2_5_0_, countryurl0_.campaign_name as campaign3_5_0_, countryurl0_.campaign_type_id as campaign4_5_0_, countryurl0_.campaign_url as campaign5_5_0_, countryurl0_.campaign_value as campaign6_5_0_, countryurl0_.country_code as country7_5_0_, countryurl0_.reporting_type_id as reporting8_5_0_ from CountryUrlCampaign countryurl0_ where countryurl0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Countryurlcampaign: select countryurl0_.id as id5_0_, countryurl0_.advertiser_id as advertiser2_5_0_, countryurl0_.campaign_name as campaign3_5_0_, countryurl0_.campaign_type_id as campaign4_5_0_, countryurl0_.campaign_url as campaign5_5_0_, countryurl0_.campaign_value as campaign6_5_0_, countryurl0_.country_code as country7_5_0_, countryurl0_.reporting_type_id as reporting8_5_0_ from CountryUrlCampaign countryurl0_ where countryurl0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.Countryurlcampaign: select countryurl0_.id as id5_0_, countryurl0_.advertiser_id as advertiser2_5_0_, countryurl0_.campaign_name as campaign3_5_0_, countryurl0_.campaign_type_id as campaign4_5_0_, countryurl0_.campaign_url as campaign5_5_0_, countryurl0_.campaign_value as campaign6_5_0_, countryurl0_.country_code as country7_5_0_, countryurl0_.reporting_type_id as reporting8_5_0_ from CountryUrlCampaign countryurl0_ where countryurl0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity com.cn.rotator.domain.dom.Countryurlcampaign: select countryurl0_.id as id5_0_, countryurl0_.advertiser_id as advertiser2_5_0_, countryurl0_.campaign_name as campaign3_5_0_, countryurl0_.campaign_type_id as campaign4_5_0_, countryurl0_.campaign_url as campaign5_5_0_, countryurl0_.campaign_value as campaign6_5_0_, countryurl0_.country_code as country7_5_0_, countryurl0_.reporting_type_id as reporting8_5_0_ from CountryUrlCampaign countryurl0_ where countryurl0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity com.cn.rotator.domain.dom.Countryurlcampaign: select countryurl0_.id as id5_0_, countryurl0_.advertiser_id as advertiser2_5_0_, countryurl0_.campaign_name as campaign3_5_0_, countryurl0_.campaign_type_id as campaign4_5_0_, countryurl0_.campaign_url as campaign5_5_0_, countryurl0_.campaign_value as campaign6_5_0_, countryurl0_.country_code as country7_5_0_, countryurl0_.reporting_type_id as reporting8_5_0_ from CountryUrlCampaign countryurl0_ where countryurl0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.CampaignType: select campaignty0_.id as id6_0_, campaignty0_.campaign_type as campaign2_6_0_ from CampaignType campaignty0_ where campaignty0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.CampaignType: select campaignty0_.id as id6_0_, campaignty0_.campaign_type as campaign2_6_0_ from CampaignType campaignty0_ where campaignty0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.CampaignType: select campaignty0_.id as id6_0_, campaignty0_.campaign_type as campaign2_6_0_ from CampaignType campaignty0_ where campaignty0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.CampaignType: select campaignty0_.id as id6_0_, campaignty0_.campaign_type as campaign2_6_0_ from CampaignType campaignty0_ where campaignty0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.CampaignType: select campaignty0_.id as id6_0_, campaignty0_.campaign_type as campaign2_6_0_ from CampaignType campaignty0_ where campaignty0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity com.cn.rotator.domain.dom.CampaignType: select campaignty0_.id as id6_0_, campaignty0_.campaign_type as campaign2_6_0_ from CampaignType campaignty0_ where campaignty0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity com.cn.rotator.domain.dom.CampaignType: select campaignty0_.id as id6_0_, campaignty0_.campaign_type as campaign2_6_0_ from CampaignType campaignty0_ where campaignty0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.CampaignReportingType: select campaignre0_.id as id3_0_, campaignre0_.reporting_type as reporting2_3_0_ from CampaignReportingType campaignre0_ where campaignre0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.CampaignReportingType: select campaignre0_.id as id3_0_, campaignre0_.reporting_type as reporting2_3_0_ from CampaignReportingType campaignre0_ where campaignre0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.CampaignReportingType: select campaignre0_.id as id3_0_, campaignre0_.reporting_type as reporting2_3_0_ from CampaignReportingType campaignre0_ where campaignre0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.CampaignReportingType: select campaignre0_.id as id3_0_, campaignre0_.reporting_type as reporting2_3_0_ from CampaignReportingType campaignre0_ where campaignre0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.CampaignReportingType: select campaignre0_.id as id3_0_, campaignre0_.reporting_type as reporting2_3_0_ from CampaignReportingType campaignre0_ where campaignre0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity com.cn.rotator.domain.dom.CampaignReportingType: select campaignre0_.id as id3_0_, campaignre0_.reporting_type as reporting2_3_0_ from CampaignReportingType campaignre0_ where campaignre0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity com.cn.rotator.domain.dom.CampaignReportingType: select campaignre0_.id as id3_0_, campaignre0_.reporting_type as reporting2_3_0_ from CampaignReportingType campaignre0_ where campaignre0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.ConvertedTraffic: select convertedt0_.id as id4_0_, convertedt0_.created_at as created2_4_0_, convertedt0_.raw_traffic_id as raw3_4_0_, convertedt0_.request_data_id as request4_4_0_, convertedt0_.tag as tag4_0_ from ConvertedTraffic convertedt0_ where convertedt0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.ConvertedTraffic: select convertedt0_.id as id4_0_, convertedt0_.created_at as created2_4_0_, convertedt0_.raw_traffic_id as raw3_4_0_, convertedt0_.request_data_id as request4_4_0_, convertedt0_.tag as tag4_0_ from ConvertedTraffic convertedt0_ where convertedt0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.ConvertedTraffic: select convertedt0_.id as id4_0_, convertedt0_.created_at as created2_4_0_, convertedt0_.raw_traffic_id as raw3_4_0_, convertedt0_.request_data_id as request4_4_0_, convertedt0_.tag as tag4_0_ from ConvertedTraffic convertedt0_ where convertedt0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.ConvertedTraffic: select convertedt0_.id as id4_0_, convertedt0_.created_at as created2_4_0_, convertedt0_.raw_traffic_id as raw3_4_0_, convertedt0_.request_data_id as request4_4_0_, convertedt0_.tag as tag4_0_ from ConvertedTraffic convertedt0_ where convertedt0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for entity com.cn.rotator.domain.dom.ConvertedTraffic: select convertedt0_.id as id4_0_, convertedt0_.created_at as created2_4_0_, convertedt0_.raw_traffic_id as raw3_4_0_, convertedt0_.request_data_id as request4_4_0_, convertedt0_.tag as tag4_0_ from ConvertedTraffic convertedt0_ where convertedt0_.id=? for update
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity com.cn.rotator.domain.dom.ConvertedTraffic: select convertedt0_.id as id4_0_, convertedt0_.created_at as created2_4_0_, convertedt0_.raw_traffic_id as raw3_4_0_, convertedt0_.request_data_id as request4_4_0_, convertedt0_.tag as tag4_0_ from ConvertedTraffic convertedt0_ where convertedt0_.id=?
+DEBUG: org.hibernate.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity com.cn.rotator.domain.dom.ConvertedTraffic: select convertedt0_.id as id4_0_, convertedt0_.created_at as created2_4_0_, convertedt0_.raw_traffic_id as raw3_4_0_, convertedt0_.request_data_id as request4_4_0_, convertedt0_.tag as tag4_0_ from ConvertedTraffic convertedt0_ where convertedt0_.id=?
+DEBUG: org.hibernate.loader.collection.OneToManyLoader - Static select for one-to-many com.cn.rotator.domain.dom.Rotator.rotatorDestinationPaths: select rotatordes0_.rotator_id as rotator8_1_, rotatordes0_.id as id1_, rotatordes0_.id as id1_0_, rotatordes0_.active as active1_0_, rotatordes0_.created_at as created3_1_0_, rotatordes0_.path_name as path4_1_0_, rotatordes0_.path_percent as path5_1_0_, rotatordes0_.rotator_id as rotator8_1_0_, rotatordes0_.updated_at as updated6_1_0_, rotatordes0_.url as url1_0_ from RotatorDestinationPath rotatordes0_ where rotatordes0_.rotator_id=?
+DEBUG: org.hibernate.impl.SessionFactoryObjectFactory - initializing class SessionFactoryObjectFactory
+DEBUG: org.hibernate.impl.SessionFactoryObjectFactory - registered: 4028b8812f2214da012f2214ddc20000 (unnamed)
+INFO : org.hibernate.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+DEBUG: org.hibernate.impl.SessionFactoryImpl - instantiated session factory
+DEBUG: org.hibernate.impl.SessionFactoryImpl - Checking 0 named HQL queries
+DEBUG: org.hibernate.impl.SessionFactoryImpl - Checking 0 named SQL queries
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;entityManagerFactory&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method &apos;save&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+DEBUG: org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator - Creating implicit proxy for bean &apos;jpaRotatorDao&apos; with 0 common interceptors and 1 specific interceptors
+DEBUG: org.springframework.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.cn.rotator.domain.dao.jpa.JpaRotatorDao@539c5048]
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;jpaRotatorDao&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;jpaRotatorDestinationPathDao&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;jpaRotatorDestinationPathDao&apos;
+DEBUG: org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [com.cn.rotator.domain.dao.jpa.JpaRotatorDestinationPathDao]: PersistenceElement for public void com.cn.rotator.domain.dao.jpa.JpaRotatorDestinationPathDao.setEntityManager(javax.persistence.EntityManager)
+DEBUG: org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [com.cn.rotator.domain.dao.jpa.JpaRotatorDestinationPathDao]: PersistenceElement for public void com.cn.rotator.domain.dao.jpa.JpaRotatorDestinationPathDao.setEntityManager(javax.persistence.EntityManager)
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;jpaRotatorDestinationPathDao&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean &apos;jpaRotatorDestinationPathDao&apos;: PersistenceElement for public void com.cn.rotator.domain.dao.jpa.JpaRotatorDestinationPathDao.setEntityManager(javax.persistence.EntityManager)
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;entityManagerFactory&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method &apos;save&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+DEBUG: org.springframework.aop.framework.autoproxy.InfrastructureAdvisorAutoProxyCreator - Creating implicit proxy for bean &apos;jpaRotatorDestinationPathDao&apos; with 0 common interceptors and 1 specific interceptors
+DEBUG: org.springframework.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [com.cn.rotator.domain.dao.jpa.JpaRotatorDestinationPathDao@4054824]
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;jpaRotatorDestinationPathDao&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;rotatorService&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;rotatorService&apos;
+DEBUG: org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [com.cn.rotator.service.jpa.JpaRotatorService]: AutowiredMethodElement for public void com.cn.rotator.service.jpa.JpaRotatorService.setRotatorDao(com.cn.rotator.domain.dao.RotatorDao)
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;rotatorService&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean &apos;rotatorService&apos;: AutowiredMethodElement for public void com.cn.rotator.service.jpa.JpaRotatorService.setRotatorDao(com.cn.rotator.domain.dao.RotatorDao)
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;jpaRotatorDao&apos;
+DEBUG: org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name &apos;rotatorService&apos; to bean named &apos;jpaRotatorDao&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;rotatorService&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;goController&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;goController&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;rotatorService&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name &apos;goController&apos; via constructor to bean named &apos;rotatorService&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;goController&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;goController&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.context.annotation.internalPersistenceAnnotationProcessor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;dataSource&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;transactionManager&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;transactionManager&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;transactionManager&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;entityManagerFactory&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name &apos;transactionManager&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;transactionManager&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;entityManagerFactory&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;jpaAdapter&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.config.viewControllerHandlerAdapter&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.web.servlet.config.viewControllerHandlerAdapter&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.web.servlet.config.viewControllerHandlerAdapter&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.web.servlet.config.viewControllerHandlerAdapter&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.config.viewControllerHandlerMapping&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.web.servlet.config.viewControllerHandlerMapping&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.web.servlet.config.viewControllerHandlerMapping&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;(inner bean)&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;(inner bean)&apos;
+INFO : org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.web.servlet.config.viewControllerHandlerMapping&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.view.InternalResourceViewResolver#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;org.springframework.web.servlet.view.InternalResourceViewResolver#0&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean &apos;org.springframework.web.servlet.view.InternalResourceViewResolver#0&apos; to allow for resolving potential circular references
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;org.springframework.web.servlet.view.InternalResourceViewResolver#0&apos;
+DEBUG: org.springframework.context.support.GenericApplicationContext - Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@6124e935]
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;lifecycleProcessor&apos;
+DEBUG: org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [com.cn.rotator.domain.dao.RotatorDaoTest]: AutowiredFieldElement for private com.cn.rotator.domain.dao.RotatorDao com.cn.rotator.domain.dao.RotatorDaoTest.rotatorDao
+DEBUG: org.springframework.beans.factory.annotation.InjectionMetadata - Found injected element on class [com.cn.rotator.domain.dao.RotatorDaoTest]: AutowiredFieldElement for private com.cn.rotator.domain.dao.RotatorDestinationPathDao com.cn.rotator.domain.dao.RotatorDaoTest.rotatorDestinationPathDao
+DEBUG: org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean &apos;com.cn.rotator.domain.dao.RotatorDaoTest&apos;: AutowiredFieldElement for private com.cn.rotator.domain.dao.RotatorDao com.cn.rotator.domain.dao.RotatorDaoTest.rotatorDao
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;jpaRotatorDao&apos;
+DEBUG: org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name &apos;com.cn.rotator.domain.dao.RotatorDaoTest&apos; to bean named &apos;jpaRotatorDao&apos;
+DEBUG: org.springframework.beans.factory.annotation.InjectionMetadata - Processing injected method of bean &apos;com.cn.rotator.domain.dao.RotatorDaoTest&apos;: AutowiredFieldElement for private com.cn.rotator.domain.dao.RotatorDestinationPathDao com.cn.rotator.domain.dao.RotatorDaoTest.rotatorDestinationPathDao
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;jpaRotatorDestinationPathDao&apos;
+DEBUG: org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name &apos;com.cn.rotator.domain.dao.RotatorDaoTest&apos; to bean named &apos;jpaRotatorDestinationPathDao&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+DEBUG: org.springframework.transaction.annotation.AnnotationTransactionAttributeSource - Adding transactional method &apos;save&apos; with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;transactionManager&apos;
+DEBUG: org.springframework.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.cn.rotator.domain.dao.jpa.JpaRotatorDao.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+DEBUG: org.springframework.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@69c0bee6] for JPA transaction
+DEBUG: org.hibernate.impl.SessionImpl - opened session at timestamp: 13019468837
+DEBUG: org.hibernate.transaction.JDBCTransaction - begin
+DEBUG: org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+DEBUG: org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/rotator]
+DEBUG: org.hibernate.transaction.JDBCTransaction - current autocommit status: true
+DEBUG: org.hibernate.transaction.JDBCTransaction - disabling autocommit
+DEBUG: org.springframework.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@46e13e7b]
+DEBUG: org.hibernate.event.def.AbstractSaveEventListener - executing identity-insert immediately
+DEBUG: org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+DEBUG: org.hibernate.SQL - insert into Rotator (active, created_at, rotator_name, updated_at) values (?, ?, ?, ?)
+Hibernate: insert into Rotator (active, created_at, rotator_name, updated_at) values (?, ?, ?, ?)
+DEBUG: org.hibernate.id.IdentifierGeneratorHelper - Natively generated identity: 3
+DEBUG: org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+DEBUG: org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction commit
+DEBUG: org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@69c0bee6]
+DEBUG: org.hibernate.transaction.JDBCTransaction - commit
+DEBUG: org.hibernate.event.def.AbstractFlushingEventListener - processing flush-time cascades
+DEBUG: org.hibernate.event.def.AbstractFlushingEventListener - dirty checking collections
+DEBUG: org.hibernate.event.def.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+DEBUG: org.hibernate.event.def.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+DEBUG: org.hibernate.pretty.Printer - listing entities:
+DEBUG: org.hibernate.pretty.Printer - com.cn.rotator.domain.dom.Rotator{updatedAt=04 April 2011, id=3, rotatorName=TestRotator, createdAt=04 April 2011, rotatorDestinationPaths=null, active=true}
+DEBUG: org.hibernate.transaction.JDBCTransaction - re-enabling autocommit
+DEBUG: org.hibernate.transaction.JDBCTransaction - committed JDBC Connection
+DEBUG: org.hibernate.jdbc.ConnectionManager - aggressively releasing JDBC connection
+DEBUG: org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+DEBUG: org.springframework.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@69c0bee6] after transaction
+DEBUG: org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+DEBUG: org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean &apos;transactionManager&apos;
+DEBUG: org.springframework.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.cn.rotator.domain.dao.jpa.JpaRotatorDestinationPathDao.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; &apos;&apos;
+DEBUG: org.springframework.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@42143753] for JPA transaction
+DEBUG: org.hibernate.impl.SessionImpl - opened session at timestamp: 13019468838
+DEBUG: org.hibernate.transaction.JDBCTransaction - begin
+DEBUG: org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+DEBUG: org.springframework.jdbc.datasource.DriverManagerDataSource - Creating new JDBC DriverManager Connection to [jdbc:mysql://localhost/rotator]
+DEBUG: org.hibernate.transaction.JDBCTransaction - current autocommit status: true
+DEBUG: org.hibernate.transaction.JDBCTransaction - disabling autocommit
+DEBUG: org.springframework.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@1798928]
+DEBUG: org.hibernate.event.def.AbstractSaveEventListener - executing identity-insert immediately
+DEBUG: org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+DEBUG: org.hibernate.SQL - insert into RotatorDestinationPath (active, created_at, path_name, path_percent, rotator_id, updated_at, url) values (?, ?, ?, ?, ?, ?, ?)
+Hibernate: insert into RotatorDestinationPath (active, created_at, path_name, path_percent, rotator_id, updated_at, url) values (?, ?, ?, ?, ?, ?, ?)
+DEBUG: org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+DEBUG: org.hibernate.util.JDBCExceptionReporter - could not insert: [com.cn.rotator.domain.dom.RotatorDestinationPath] [insert into RotatorDestinationPath (active, created_at, path_name, path_percent, rotator_id, updated_at, url) values (?, ?, ?, ?, ?, ?, ?)]
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column &apos;rotator_id&apos; cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:409)
+	at com.mysql.jdbc.Util.getInstance(Util.java:384)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1041)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3562)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3494)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1960)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2114)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2696)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2105)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2398)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2316)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2301)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:94)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:57)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2278)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:2758)
+	at org.hibernate.action.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:71)
+	at org.hibernate.engine.ActionQueue.execute(ActionQueue.java:279)
+	at org.hibernate.event.def.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:321)
+	at org.hibernate.event.def.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:204)
+	at org.hibernate.event.def.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:130)
+	at org.hibernate.ejb.event.EJB3MergeEventListener.saveWithGeneratedId(EJB3MergeEventListener.java:62)
+	at org.hibernate.event.def.DefaultMergeEventListener.mergeTransientEntity(DefaultMergeEventListener.java:314)
+	at org.hibernate.event.def.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:282)
+	at org.hibernate.event.def.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:237)
+	at org.hibernate.event.def.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:84)
+	at org.hibernate.impl.SessionImpl.fireMerge(SessionImpl.java:709)
+	at org.hibernate.impl.SessionImpl.merge(SessionImpl.java:693)
+	at org.hibernate.impl.SessionImpl.merge(SessionImpl.java:697)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.merge(AbstractEntityManagerImpl.java:322)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:240)
+	at $Proxy27.merge(Unknown Source)
+	at com.cn.rotator.domain.dao.jpa.JpaRotatorDestinationPathDao.save(JpaRotatorDestinationPathDao.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:309)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:183)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202)
+	at $Proxy29.save(Unknown Source)
+	at com.cn.rotator.domain.dao.RotatorDaoTest.testRotator(RotatorDaoTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
-	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:303)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
 	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
@@ -163,27 +1021,24 @@ java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
-Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from URL [file:webapp/WEB-INF/spring/rotator-config.xml]; nested exception is java.io.FileNotFoundException: webapp\WEB-INF\spring\rotator-config.xml (The system cannot find the path specified)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:143)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:178)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:149)
-	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:212)
-	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:81)
-	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:1)
-	at org.springframework.test.context.TestContext.loadApplicationContext(TestContext.java:280)
-	at org.springframework.test.context.TestContext.getApplicationContext(TestContext.java:304)
-	... 30 more
-Caused by: java.io.FileNotFoundException: webapp\WEB-INF\spring\rotator-config.xml (The system cannot find the path specified)
-	at java.io.FileInputStream.open(Native Method)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:106)
-	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:66)
-	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:70)
-	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:161)
-	at org.springframework.core.io.UrlResource.getInputStream(UrlResource.java:124)
-	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
-	... 39 more
+WARN : org.hibernate.util.JDBCExceptionReporter - SQL Error: 1048, SQLState: 23000
+ERROR: org.hibernate.util.JDBCExceptionReporter - Column &apos;rotator_id&apos; cannot be null
+DEBUG: org.hibernate.ejb.AbstractEntityManagerImpl - mark transaction for rollback
+DEBUG: org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction rollback
+DEBUG: org.springframework.orm.jpa.JpaTransactionManager - Rolling back JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@42143753]
+DEBUG: org.hibernate.transaction.JDBCTransaction - rollback
+DEBUG: org.hibernate.transaction.JDBCTransaction - re-enabling autocommit
+DEBUG: org.hibernate.transaction.JDBCTransaction - rolled back JDBC Connection
+DEBUG: org.hibernate.jdbc.ConnectionManager - aggressively releasing JDBC connection
+DEBUG: org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+DEBUG: org.springframework.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@42143753] after transaction
+DEBUG: org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+DEBUG: org.springframework.test.context.support.DirtiesContextTestExecutionListener - After test method: context [[TestContext@f581593 testClass = RotatorDaoTest, locations = array&lt;String&gt;[&apos;file:src/test/resources/spring/rotator-config.xml&apos;], testInstance = com.cn.rotator.domain.dao.RotatorDaoTest@5ff06dc3, testMethod = testRotator@RotatorDaoTest, testException = javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not insert: [com.cn.rotator.domain.dom.RotatorDestinationPath]]], class dirties context [false], class mode [null], method dirties context [false].
 </system-out>
+    <system-err>URL: file:/C:/Users/kevin/workspace/java/rotator/target/classes/
+  META-INF/orm.xml
+  **/*.hbm.xml
+
+</system-err>
   </testcase>
 </testsuite>

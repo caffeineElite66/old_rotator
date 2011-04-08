@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package com.cn.rotator.domain.dao;
 
+import java.util.ArrayList;
 import javax.inject.Inject;
-import com.cn.rotator.domain.dao.jpa.JpaRotatorDao;
 import com.cn.rotator.domain.dom.Rotator;
+import com.cn.rotator.domain.dom.RotatorDestinationPath;
 import java.util.List;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,23 +21,48 @@ import static junit.framework.Assert.assertEquals;
  *
  * @author kevin
  */
-
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations={"file:src/test/resources/spring/rotator-config.xml"})
+@ContextConfiguration(locations = {"file:src/test/resources/spring/rotator-config.xml"})
 public class RotatorDaoTest {
 
     @Inject
     private RotatorDao rotatorDao;
-    
+    @Inject
+    private RotatorDestinationPathDao rotatorDestinationPathDao;
     private Logger log = LoggerFactory.getLogger(RotatorDaoTest.class);
 
     @Test
     public void testRotator() {
         Rotator r = new Rotator();
+        r.setActive(true);
+        r.setRotatorName("TestRotator");
         rotatorDao.save(r);
+        
+        RotatorDestinationPath d1 = new RotatorDestinationPath();
+        d1.setActive(true);
+        d1.setPathName("defaultPath");
+        d1.setPathPercent(90);
+        d1.setUrl("http://www.google.com");
+        d1.setRotator(r);
+        rotatorDestinationPathDao.save(d1);
+
+        RotatorDestinationPath d2 = new RotatorDestinationPath();
+        d2.setActive(true);
+        d2.setPathName("alternitivePath");
+        d2.setPathPercent(10);
+        d2.setUrl("http://www.yahoo.com");
+        d2.setRotator(r);
+        rotatorDestinationPathDao.save(d2);
+        
+//        ArrayList<RotatorDestinationPath> paths = new ArrayList<RotatorDestinationPath>();
+//        paths.add(d1);
+//        paths.add(d2);
+
+//        r.setRotatorDestinationPaths(paths);
+        
+
         final List<Rotator> rotators = rotatorDao.getRotators();
-        //assertEquals(1, rotators.size());
-        //assertEquals(r, rotators.get(0));
-        assertEquals(1, 1);
+        assertEquals(1, rotators.size());
+        assertEquals(2, rotators.get(0).getRotatorDestinationPaths().size());
     }
 }
